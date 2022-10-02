@@ -1,0 +1,95 @@
+# Capstone Design
+## Smart Desk
+
+### 1. 프로젝트 주제 
+- 영상 처리를 활용한 스마트 책상
+
+### 2. 제작 기간 / 참여인원 
+- 2021-09-01 ~ 2022-06-22 / 전자공학 전공 4명
+
+### 3. 사용한 기술(기술 스택)
+- Python
+- Rasberry Pi OS
+- OpenCV 라이브러리
+- Matplotlib 라이브러리
+
+### 4. 나의 역할
+- 팀장 / Team Communication Lead / 가속도-자이로 센서 코드 작성 / 키 측정 알고리즘 코드 구현 / OpenCV를 활용한 사용자 얼굴 인식 코드 구현 / 높낮이 조절을 위한 모터 제어 코드 작성 / 디스플레이 동작 코드 작성 / 센서 데이터 값 시각화 코드 
+
+### 5. 핵심기능
+- 사용자의 얼굴 인식된 좌표값을 통해 사용자가 앉거나 일어서는 동작을 판단하고 책상의 높낮이를 사용자의 키에 맞는 적정 높이까지 맞춰준다.
+
+    #### ※ 기능 구현
+    
+    - <사용자 얼굴 인식>
+    
+        OpenCV DNN + Caffe SSD 모델 얼굴 인식을 Pretrain한 모델과 입력 가중치를 활용하여 사용자 얼굴 인식
+		
+		<img width="390" alt="image" src="https://user-images.githubusercontent.com/84834776/193446428-40df8f29-f8b9-4b8d-a397-4be1e0daf84b.png">
+        <img width="300" alt="image" src="https://user-images.githubusercontent.com/84834776/193446471-a8143655-d1b9-4d5a-bcde-0c2c423450f1.png" align="center">
+        
+    - <인식된 얼굴 좌표값을 활용하여 키 측정 알고리즘>
+
+        책상 카메라와 사용자 얼굴이 인식되는 가장 가까운 거리와 가장 먼 거리를 측정 후 비례식을 세워 공학적 수치 계산으로 사용자의 현재 키를 예측하도록 작성
+        
+		* 키 측정 비례식 구상도
+		
+			![image](https://user-images.githubusercontent.com/84834776/193446760-bb6b8901-12b0-4df7-be4b-1657374504e2.png)
+			![image](https://user-images.githubusercontent.com/84834776/193446745-f52ece2f-52bb-4df2-86c6-1242adbfbee3.png)
+		
+		* 구상도 코드 구현
+
+				'''
+				brief : 카메라 화면 기반 사용자 신장 유도식 
+				note  : 사용자의 얼굴 인식된 폭의 길이와 실제 카메라와 사용자의 거리의 비례식을 세운 수식 코드화. 카메라가 인식할 수 있는 최대 거리.
+				param : faceWidth(얼굴폭), pixelX(좌표X), pixelY(좌표Y), nowHeight(현재 카메라 높이)
+				return: 계산된 신장높이
+				'''
+				
+				def getUserHeight1(faceWidth, pixelX, pixelY, nowHeight):
+					global faceWidthAverage
+					faceWidthAverage[0] = faceWidth
+					sumHeight = 0
+					for i in range(len(faceWidthAverage)):
+						sumHeight = faceWidthAverage[i] + sumHeight
+					widthAverage = sumHeight / timeNum
+					fullHorizontalAngle = cameraAngle
+					fullVerticalAngle = fullHorizontalAngle * cameraHeight / cameraWidth
+					faceDifference = faceWidthMax - faceWidthMin
+					distanceDifference = userDistanceMax - userDistanceMin
+					calUserDistance = ((faceWidthMax) - widthAverage) / faceDifference * distanceDifference + userDistanceMin
+					userTopAngle = abs(pixelX - cameraWidth/2) / cameraWidth * fullHorizontalAngle
+					userSideAngle = abs(cameraHeight/2 - pixelY) / cameraHeight * fullVerticalAngle
+					userDistance = (calUserDistance / np.cos(userTopAngle * np.pi/180))/ np.cos(userSideAngle * np.pi / 180)
+					gap = calUserDistance / userDistance
+					calUserDistance = ((faceWidthMax - (1 - gap) * 80) - widthAverage) / faceDifference * distanceDifference + userDistanceMin
+					userDistance = (calUserDistance / np.cos(userTopAngle * np.pi / 180)) / np.cos(userSideAngle * np.pi / 180)
+					cameraUserAngle = (cameraHeight/2 - pixelY) / cameraHeight * fullVerticalAngle
+					calHeight = np.sin((cameraUserAngle + deskAngle) * np.pi/180) * userDistance# abs(np.sin((cameraUserAngle + deskAngle) * np.pi/180))* 15
+					for i in range(timeNum-1):#shift array
+						faceWidthAverage[timeNum-1-i] = faceWidthAverage[timeNum-2-i]
+					return nowHeight + calHeight
+					
+    - <H/W 센서 및 디스플레이>
+    1. 현재 책상 높이 측정 센서 : 초음파 센서
+    2. 책상 높낮이 제어 시 한 쪽 부하 발생으로 인한 책상 기울림 방지를 위해 수평 측정 센서 : 자이로/가속도 센서
+    3. 
+
+
+### 6. 트러블슈팅
+
+
+
+
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
