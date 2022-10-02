@@ -1,3 +1,8 @@
+---
+layout: post
+title:  "나의 졸업작품"
+---
+
 # Capstone Design
 ## Smart Desk
 
