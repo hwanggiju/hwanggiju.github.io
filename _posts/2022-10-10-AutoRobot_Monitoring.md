@@ -97,7 +97,7 @@ title:  "제어공학 연구실 - 자율주행로봇/모니터링부"
 
 ### 7. 동작 영상 YouTube 링크
 
-  [시연영상](https://youtu.be/Vu4WY2ludRw)
+  [시연영상 Click](https://youtu.be/Vu4WY2ludRw)
 
 ### 8. 프로젝트 후기
 
@@ -105,3 +105,4 @@ title:  "제어공학 연구실 - 자율주행로봇/모니터링부"
 
 ### 9. 깃허브 링크
 
+  [Code Link](https://github.com/hwanggiju/autodriving_robot.git)
