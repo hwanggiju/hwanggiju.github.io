@@ -19,8 +19,7 @@ title: "YOLO와 FaceNet 모델을 이용한 초상권 보호 모자이크 처리
 ### 4. 나의 역할
 
 ### 5. 핵심기능
-
-![tkz_96](C:\github\hwanggiju.github.io\images\2022-10-10-Mosaic_processing_system\tkz_96.jpg)
+- 실시간 변경 사항 확인중
 
 #### ※ 기능 구현
 
