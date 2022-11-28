@@ -28,6 +28,7 @@ title: "YOLO와 FaceNet 모델을 이용한 초상권 보호 모자이크 처리
 ### 3. 사용한 기술 스택
 
 > 언어 및 프레임워크
+
 - Python
 - YOLOv5, YOLOv7
 - FaceNet
