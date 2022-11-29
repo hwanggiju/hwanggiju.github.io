@@ -118,7 +118,7 @@ tag: [python, 소프트웨어 교육 프로그램, 최종 프로젝트, YOLO, Ef
     > EfficientNet B0
     - 탈모 : 탈모를 예방하기 위한 프로젝트로써 적합하지 않다고 판단.
     - 탈모를 제외한 5가지 증상 클래스 선정
-    - 탈모성을 제외한 7가지 유형 이용 
+    - 탈모성을 제외한 7가지 유형 이용 (기준 표 제시)
     
     <img width="453" alt="image" src="https://user-images.githubusercontent.com/84834776/204467901-1c614b61-73b8-441f-82d1-5922530b9e27.png">
     
