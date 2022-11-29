@@ -16,7 +16,7 @@ tag: [python, 소프트웨어 교육 프로그램, 최종 프로젝트, YOLO, Ef
 
 - 설문 조사 결과
 
-    (리서치 조사 결과 이미지 삽입)
+    <img width="451" alt="image" src="https://user-images.githubusercontent.com/84834776/204461669-e2ca3d01-9ce0-4353-a9f3-8c4d1e2c593c.png">
 
     <한국암웨이 기업과 모바일 리서치 기관인 오픈서베이 성인 400명을 대상으로 한 성인 두피 관리 실태 조사 결과>
 
@@ -24,7 +24,7 @@ tag: [python, 소프트웨어 교육 프로그램, 최종 프로젝트, YOLO, Ef
 
     2. 두번째 그래프, 고민은 많은 반면 두피 관리는 소극적
 
-    (증가 추세 그래프 이미지 삽입)
+    <img width="200" alt="image" src="https://user-images.githubusercontent.com/84834776/204461735-f8df1c5d-6da1-41f4-8ba5-9bf429c1bc69.png">
 
     <건강보험공단에서 발표한 탈모증 환자 증가 추세 그래프> 
 
@@ -40,7 +40,7 @@ tag: [python, 소프트웨어 교육 프로그램, 최종 프로젝트, YOLO, Ef
 
 - 키워드 분석 플랫폼 (썸트렌드)
 
-    (키워드 분석 결과 이미지 삽입)
+    <img width="471" alt="image" src="https://user-images.githubusercontent.com/84834776/204461792-596aaff2-17d8-4eef-9b58-f5e5dff34b33.png">
 
     <썸트렌드 두피 키워드 검색 결과>
 
@@ -50,16 +50,15 @@ tag: [python, 소프트웨어 교육 프로그램, 최종 프로젝트, YOLO, Ef
 
 - 토픽 모델링 LDA / 워드클라우드 진행
     
-    (첫번째 결과 이미지 삽입)
+    <img width="463" alt="image" src="https://user-images.githubusercontent.com/84834776/204461833-3771c916-9328-4568-acd6-58fa3aa11aaf.png">
 
     1. 첫번째 결과, '두피 증상'이라는 주제 추측
 
-    (두번째 결과 이미지 삽입)
+    <img width="463" alt="image" src="https://user-images.githubusercontent.com/84834776/204461870-189af50f-3013-43c8-870b-f98e90aa848e.png">
 
     2. 두번째 결과, '두피 케어'라는 주제 추측
 
-    (각 주제에 대한 워드클라우드 이미지 삽입)
-
+    <img width="464" alt="image" src="https://user-images.githubusercontent.com/84834776/204461906-9390c915-5b41-4289-9789-44e36e8f15fe.png">
 
 > 목표
 
