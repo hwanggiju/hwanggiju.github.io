@@ -178,7 +178,7 @@ tag: [python, 소프트웨어 교육 프로그램, 최종 프로젝트, YOLO, Ef
 
 결과적으로 최종 프로젝트 발표에서 금상을 받을 수 있었다.
 
-
+![image](https://user-images.githubusercontent.com/84834776/204468628-6a484fd3-665c-43a8-ad12-d74e159c438f.png)
 
 ### 8. 프로젝트(Google Drive) 코드 링크
 
