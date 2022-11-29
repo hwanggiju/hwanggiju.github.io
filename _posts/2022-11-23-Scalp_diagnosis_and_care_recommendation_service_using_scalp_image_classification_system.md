@@ -24,7 +24,7 @@ tag: [python, 소프트웨어 교육 프로그램, 최종 프로젝트, YOLO, Ef
 
     2. 두번째 그래프, 고민은 많은 반면 두피 관리는 소극적
 
-    <img width="200" alt="image" src="https://user-images.githubusercontent.com/84834776/204461735-f8df1c5d-6da1-41f4-8ba5-9bf429c1bc69.png">
+    <img width="400" alt="image" src="https://user-images.githubusercontent.com/84834776/204461735-f8df1c5d-6da1-41f4-8ba5-9bf429c1bc69.png">
 
     1. 젊은 층 외모에 대한 관심 증가 -> 병원을 찾는 빈도 수 증가
 
