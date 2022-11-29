@@ -26,7 +26,7 @@ tag: [python, 소프트웨어 교육 프로그램, 최종 프로젝트, YOLO, Ef
 
     <img width="200" alt="image" src="https://user-images.githubusercontent.com/84834776/204461735-f8df1c5d-6da1-41f4-8ba5-9bf429c1bc69.png">
 
-    <건강보험공단에서 발표한 탈모증 환자 증가 추세 그래프> 
+    <건강보험공단에서 발표한 탈모증 환자의 증가 추세 그래프> 
 
 1. 젊은 층 외모에 대한 관심 증가 -> 병원을 찾는 빈도 수 증가
 
@@ -124,11 +124,11 @@ tag: [python, 소프트웨어 교육 프로그램, 최종 프로젝트, YOLO, Ef
     - 탈모를 제외한 5가지 증상 클래스 선정
     - 탈모성을 제외한 7가지 유형 이용 
     
-    <img width="453" alt="image" src="https://user-images.githubusercontent.com/84834776/204467901-1c614b61-73b8-441f-82d1-5922530b9e27.png">
+        <img width="453" alt="image" src="https://user-images.githubusercontent.com/84834776/204467901-1c614b61-73b8-441f-82d1-5922530b9e27.png">
     
     - 두피 이미지 삽입 -> 각 증상마다의 중증도 단계 분류 -> 기준 표를 기반으로 최종 두피 유형 분류
 
-    <img width="442" alt="image" src="https://user-images.githubusercontent.com/84834776/204467977-5f014518-d261-4e96-b4e3-f655c607e332.png">
+        <img width="442" alt="image" src="https://user-images.githubusercontent.com/84834776/204467977-5f014518-d261-4e96-b4e3-f655c607e332.png">
 
 - 메타데이터 EDA
 
@@ -140,13 +140,14 @@ tag: [python, 소프트웨어 교육 프로그램, 최종 프로젝트, YOLO, Ef
 
 - 모델 구축
 
-> YOLO 모델 정확도 비교 및 결과
+    > YOLO 모델 정확도 비교 및 결과
 
-<img width="330" alt="image" src="https://user-images.githubusercontent.com/84834776/204468106-f0b8cd0a-d877-42cf-997f-6e0118a802bb.png">
+    <img width="330" alt="image" src="https://user-images.githubusercontent.com/84834776/204468106-f0b8cd0a-d877-42cf-997f-6e0118a802bb.png">
 
-> EfficientNet B0 정확도 결과
+    > EfficientNet B0 정확도 결과
 
-<img width="426" alt="image" src="https://user-images.githubusercontent.com/84834776/204468141-f6a5334b-d708-401f-8c19-26f21182ea8d.png">
+    <img width="426" alt="image" src="https://user-images.githubusercontent.com/84834776/204468141-f6a5334b-d708-401f-8c19-26f21182ea8d.png">
+
 
 - 웹과 어플 구현
 
@@ -178,7 +179,7 @@ tag: [python, 소프트웨어 교육 프로그램, 최종 프로젝트, YOLO, Ef
 
 결과적으로 최종 프로젝트 발표에서 금상을 받을 수 있었다.
 
-<img width="275" alt="image" src="https://user-images.githubusercontent.com/84834776/204469037-8655412c-a88d-4fa4-8df9-a2523f78ca19.png">
+
 
 ### 8. 프로젝트(Google Drive) 코드 링크
 
