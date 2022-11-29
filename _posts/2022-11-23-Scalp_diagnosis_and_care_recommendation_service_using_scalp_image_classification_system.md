@@ -128,11 +128,12 @@ tag: [python, 소프트웨어 교육 프로그램, 최종 프로젝트, YOLO, Ef
 
 - 메타데이터 EDA
 
+    - 각종 EDA 과정을 거쳐 사람들의 두피 정보 인사이트 정보 획득
+
     <img width="422" alt="image" src="https://user-images.githubusercontent.com/84834776/204468023-a11b2be0-24a2-40e2-ae32-44ae613c6a92.png">
     
     <img width="422" alt="image" src="https://user-images.githubusercontent.com/84834776/204468069-58833778-3981-4ecc-8678-1cb208bd7d5f.png">
 
-    각종 EDA 과정을 거쳐 사람들의 두피 정보 인사이트 정보 획득
 
 - 모델 구축
 
