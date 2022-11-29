@@ -137,9 +137,13 @@ tag: [python, 소프트웨어 교육 프로그램, 최종 프로젝트, YOLO, Ef
 
     <img width="330" alt="image" src="https://user-images.githubusercontent.com/84834776/204468106-f0b8cd0a-d877-42cf-997f-6e0118a802bb.png">
 
+    - 정확도와 추론 시간 부분에서 YOLOv7이 강점을 보이나, 결과 분석 과정에서 사용 사레 & 사용자의 인식에 의해 결정 되기에 프로젝트에 맞게 적용할 수 있는 YOLOv5m 모델 선정
+
     > EfficientNet B0 정확도 결과
 
     <img width="426" alt="image" src="https://user-images.githubusercontent.com/84834776/204468141-f6a5334b-d708-401f-8c19-26f21182ea8d.png">
+
+    - 증상마다 서로 다른 이미지 데이터 개수로 인해 에포크 횟수를 달리하여 정확도를 비슷하게 만들어 줌.
 
 
 - 웹과 어플 구현
