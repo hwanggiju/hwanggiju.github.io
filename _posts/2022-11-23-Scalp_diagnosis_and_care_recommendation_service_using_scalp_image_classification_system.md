@@ -119,12 +119,10 @@ tag: [python, 소프트웨어 교육 프로그램, 최종 프로젝트, YOLO, Ef
     - 탈모 : 탈모를 예방하기 위한 프로젝트로써 적합하지 않다고 판단.
     - 탈모를 제외한 5가지 증상 클래스 선정
     - 탈모성을 제외한 7가지 유형 이용 (기준 표 제시)
-    
     <img width="453" alt="image" src="https://user-images.githubusercontent.com/84834776/204467901-1c614b61-73b8-441f-82d1-5922530b9e27.png">
     
     - 두피 이미지 삽입 -> 각 증상마다의 중증도 단계 분류 -> 기준 표를 기반으로 최종 두피 유형 분류
-
-        <img width="442" alt="image" src="https://user-images.githubusercontent.com/84834776/204467977-5f014518-d261-4e96-b4e3-f655c607e332.png">
+    <img width="442" alt="image" src="https://user-images.githubusercontent.com/84834776/204467977-5f014518-d261-4e96-b4e3-f655c607e332.png">
 
 - 메타데이터 EDA
 
