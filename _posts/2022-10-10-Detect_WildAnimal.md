@@ -1,13 +1,13 @@
 ---
 layout: single
-title: "YOLOv5를 활용한 야생동물 로드킬 방지 모델"
+title: "디지털 스마트 부산 아카데미 미니 프로젝트"
 categories: "미니프로젝트"
 tag: [python, 미니 프로젝트, 소프트웨어 교육 프로그램, 데이터 수집 및 분석, YOLO, 팀 프로젝트]
 ---
 
-# 야생동물 로드킬 방지 모델
+# YOLOv5를 활용한 야생동물 로드킬 방지 모델
 
-## Create Road kill Prevention Model
+## Wildlife roadkill prevention model using YOLOv5
 
 ### 1. 프로젝트 주제
 
