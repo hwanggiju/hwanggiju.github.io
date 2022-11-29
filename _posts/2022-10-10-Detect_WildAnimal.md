@@ -1,6 +1,8 @@
 ---
 layout: single
 title: "YOLOv5를 활용한 야생동물 로드킬 방지 모델"
+categories: "미니 프로젝트"
+tag: [python, 미니 프로젝트, 소프트웨어 교육 프로그램, 데이터 수집 및 분석, YOLO, 팀 프로젝트]
 ---
 
 # 야생동물 로드킬 방지 모델

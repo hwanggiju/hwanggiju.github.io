@@ -1,6 +1,8 @@
 ---
 layout: single
 title: "YOLO와 FaceNet 모델을 이용한 초상권 보호 모자이크 처리 시스템"
+categories: "예비 프로젝트"
+tag: [python, 예비 프로젝트, 소프트웨어 교육 프로그램, YOLO, FaceNet, 팀 프로젝트]
 ---
 
 # 초상권 보호 모자이크 처리 시스템

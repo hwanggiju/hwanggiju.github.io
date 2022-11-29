@@ -1,6 +1,8 @@
 ---
 layout: single
 title:  "제어공학 연구실 - 자율주행로봇/모니터링부"
+categories: "AutoDriving Robot"
+tag: [python, Lab, monitoring]
 ---
 
 # 자율주행로봇 / 모니터링 부
