@@ -124,15 +124,17 @@ tag: [python, 소프트웨어 교육 프로그램, 최종 프로젝트, YOLO, Ef
     - 탈모를 제외한 5가지 증상 클래스 선정
     - 탈모성을 제외한 7가지 유형 이용 
     
-        (기준표 이미지 삽입)
+    <img width="453" alt="image" src="https://user-images.githubusercontent.com/84834776/204467901-1c614b61-73b8-441f-82d1-5922530b9e27.png">
     
     - 두피 이미지 삽입 -> 각 증상마다의 중증도 단계 분류 -> 기준 표를 기반으로 최종 두피 유형 분류
 
-    (EfficientNet 모델 구조 이미지 삽입)
+    <img width="442" alt="image" src="https://user-images.githubusercontent.com/84834776/204467977-5f014518-d261-4e96-b4e3-f655c607e332.png">
 
 - 메타데이터 EDA
 
-    (메타데이터 EDA 과정 그래프 삽입)
+    <img width="422" alt="image" src="https://user-images.githubusercontent.com/84834776/204468023-a11b2be0-24a2-40e2-ae32-44ae613c6a92.png">
+    
+    <img width="422" alt="image" src="https://user-images.githubusercontent.com/84834776/204468069-58833778-3981-4ecc-8678-1cb208bd7d5f.png">
 
     각종 EDA 과정을 거쳐 사람들의 두피 정보 인사이트 정보 획득
 
@@ -140,11 +142,11 @@ tag: [python, 소프트웨어 교육 프로그램, 최종 프로젝트, YOLO, Ef
 
 > YOLO 모델 정확도 비교 및 결과
 
-
+<img width="330" alt="image" src="https://user-images.githubusercontent.com/84834776/204468106-f0b8cd0a-d877-42cf-997f-6e0118a802bb.png">
 
 > EfficientNet B0 정확도 결과
 
-
+<img width="426" alt="image" src="https://user-images.githubusercontent.com/84834776/204468141-f6a5334b-d708-401f-8c19-26f21182ea8d.png">
 
 - 웹과 어플 구현
 
