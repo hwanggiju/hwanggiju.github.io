@@ -98,6 +98,9 @@ tag: [네트워크, Subnetting, Supernetting, 국비교육과정(Private 클라�
     |1.1.1.1|1.1.1.2 <--> 1.1.1.3|1.1.1.4|x|
     |1.1.1.1|1.1.1.2 <--> 2.1.1.2|2.1.1.1|o|
 
+- vmware 윈도우 연결
+
+![image](https://user-images.githubusercontent.com/84834776/205583931-f30870b8-a50d-4c67-a870-fdb16b530f2b.png)
 
 
 ### Subnetting
