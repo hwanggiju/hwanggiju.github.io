@@ -111,7 +111,7 @@ tag: [네트워크, Subnetting, Supernetting, 국비교육과정(Private 클라�
 
 - Network 연결 실습 (리눅스)
 
-![image](https://user-images.githubusercontent.com/84834776/205788206-021c33cc-5ecf-441a-a3a2-4c4f3b428976.png)
+![image](https://user-images.githubusercontent.com/84834776/205790488-833ac666-f2bd-430f-876b-a3a6a7525411.png)
 
 1. 리눅스 pc 서버 on
 2. 라우터 on
@@ -119,10 +119,19 @@ tag: [네트워크, Subnetting, Supernetting, 국비교육과정(Private 클라�
 4. 리눅스 pc ip 지정 (노랑색 박스 순서와 같이 명령어 실행)
 5. 각 pc 서버에서 ping 확인
 
-### Subnetting
 
+### Static Route
 
+![image](https://user-images.githubusercontent.com/84834776/205839433-6baa3dc1-ecfd-4b03-b611-9fafd9e86431.png)
 
-### Supernetting
+- Router 장비 : 다른 Network 주소 연결 + 지도 관리
+- Static Routing : ip route 명령어
+
+  - 실습
+  
+  ![image](https://user-images.githubusercontent.com/84834776/205849493-1f4b905f-5f61-4d81-b6ef-d8b4306f4fbd.png)
+
+- Dynamic Routing : RIP, EIGRP, OSPF, BGP
+
 
 
