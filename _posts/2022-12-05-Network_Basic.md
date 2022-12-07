@@ -125,25 +125,30 @@ tag: [네트워크, Subnetting, Supernetting, 국비교육과정(Private 클라�
 ![image](https://user-images.githubusercontent.com/84834776/205839433-6baa3dc1-ecfd-4b03-b611-9fafd9e86431.png)
 
 - Router 장비 : 다른 Network 주소 연결 + 지도 관리
-- Static Routing : ip route 명령어
+- Static Routing : ip route 명령어 (유형 1 : 이웃 주소 지정, 유형 2 : 자신의 Local interface 지정 )
 
-  - 실습 1
+  - 실습 1 (유형 1)
   
   ![image](https://user-images.githubusercontent.com/84834776/205849493-1f4b905f-5f61-4d81-b6ef-d8b4306f4fbd.png)
   
-  - 실습 2
+  - 실습 2 (유형 1)
 
   ![image](https://user-images.githubusercontent.com/84834776/206059996-1f92ebdc-e020-4b96-8b8e-f9a5891741b0.png)
 
-  - 실습 3
+  - 실습 3 (no ip route 명령어)
 
   ![image](https://user-images.githubusercontent.com/84834776/206070274-152dc5c9-4360-48fd-b18f-2f0f103b8f79.png)
 
 - no ip route 명령어 : 라우터 ip 삭제 명령어
 
-- 루핑(Looping) ; 잘못된 주소 지정
+- 루핑(Looping) ; 모르는 주소일 때 default 경로 지정, 잘못된 주소 지정
 
   ![image](https://user-images.githubusercontent.com/84834776/206090249-37fc1dc9-670c-47e7-bd05-0861e90f8607.png)
+  
+- 실습 4 (유형 2)
+
+  ![image](https://user-images.githubusercontent.com/84834776/206098797-27389c4a-bc15-4a3a-abea-60569fdcd22e.png)
+
  
 - Dynamic Routing : RIP, EIGRP, OSPF, BGP
 
