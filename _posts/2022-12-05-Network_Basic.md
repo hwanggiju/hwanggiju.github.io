@@ -201,6 +201,31 @@ tag: [네트워크, Subnetting, Supernetting, 국비교육과정(Private 클라�
 - 여러 개의 Network 주소를 1개의 Network 주소로 만들기
 - <예1>
   - 126.1.0.0/16, 126.2.0.0/16 , 126.3.0.0/16 => 126.0.0.0/8
+- Supernetting 방법
 
+  ![image](https://user-images.githubusercontent.com/84834776/206966572-f2371142-05b8-445f-8610-a48faf0bb6a4.png)
 
+  - 축약 x
+  
+  ![image](https://user-images.githubusercontent.com/84834776/206967113-db7fd054-e1aa-4ffd-9bff-12133c5b304a.png)
 
+  - 하나의 라우터 인터페이스에 여러 주소 넣어주는 방법
+    - ip route (ip 주소) (Subnet Mask) secondary 입력
+
+  - 축약 o
+ 
+  ![image](https://user-images.githubusercontent.com/84834776/206967381-4cb9e534-49a7-46c6-bc86-9199beca42ae.png)
+  
+  - 실습
+  
+  ![image](https://user-images.githubusercontent.com/84834776/206974552-97d95104-69e3-4c42-8f2e-ef553c99af57.png)
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
