@@ -242,4 +242,12 @@ tag: [네트워크, Subnetting, Supernetting, 국비교육과정(Private 클라�
   
     ![image](https://user-images.githubusercontent.com/84834776/207240964-68fb9577-b3e1-4815-9d6f-cad786f3c5a5.png)
 
-    
+- 실습
+
+  ![image](https://user-images.githubusercontent.com/84834776/207249369-c003198b-906f-40e7-b613-09a2dae33a39.png)
+
+- 각 PC MAC 주소를 L2 기반으로 IP 주소를 Router에 요청하고, L3를 기반으로 Router에서 IP 주소를 자동으로 할당해준다.
+- DHCP Relay Agent
+
+  ![image](https://user-images.githubusercontent.com/84834776/207257236-c12358aa-2a3b-454b-a4f0-14bee8d86d7b.png)
+
