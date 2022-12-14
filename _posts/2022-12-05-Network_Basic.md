@@ -269,19 +269,19 @@ tag: [네트워크, Subnetting, Supernetting, 국비교육과정(Private 클라�
 
 - DHCP Server : Broadcast 이용해 통신 (L2 주소 : FFFF.FFFF.FFFF, L3 주소 : 255.255.255.255) 
 
-  1. DHCP Discover : 출발지(MAC1/0.0.0.0) - 목적지(FFFF.FFFF.FFFF/255.255.255.255)
+  > 1. DHCP Discover : 출발지(MAC1/0.0.0.0) - 목적지(FFFF.FFFF.FFFF/255.255.255.255)
 
     ![image](https://user-images.githubusercontent.com/84834776/207523700-b47e4d9e-9253-40af-b936-9cf8815e5a30.png)
 
-  2. DHCP Offer : 출발지(MAC2/192.168.10.254) - 목적지(FFFF.FFFF.FFFF/255.255.255.255), Payload(IP,S/M,G/W,DNS,임대)
+  > 2. DHCP Offer : 출발지(MAC2/192.168.10.254) - 목적지(FFFF.FFFF.FFFF/255.255.255.255), Payload(IP,S/M,G/W,DNS,임대)
 
     ![image](https://user-images.githubusercontent.com/84834776/207523800-68602dd3-dfe1-448b-a739-62409e40f570.png)
     
-  3. DHCP Request : 출발지(MAC1/0.0.0.0) - 목적지(FFFF.FFFF.FFFF/255.255.255.255), Payload(위와 같음)
+  > 3. DHCP Request : 출발지(MAC1/0.0.0.0) - 목적지(FFFF.FFFF.FFFF/255.255.255.255), Payload(위와 같음)
 
     ![image](https://user-images.githubusercontent.com/84834776/207523847-cceb2644-9e10-40bc-a6b1-1080361d4a64.png)
     
-  4. DHCP ACK : 출발지(MAC2/192.168.10.254) - 목적지(FFFF.FFFF.FFFF/255.255.255.255), Payload(위와 같음)
+  > 4. DHCP ACK : 출발지(MAC2/192.168.10.254) - 목적지(FFFF.FFFF.FFFF/255.255.255.255), Payload(위와 같음)
 
     ![image](https://user-images.githubusercontent.com/84834776/207523951-cc1d3215-c82b-4a73-bfa7-00be19527c71.png)
 
