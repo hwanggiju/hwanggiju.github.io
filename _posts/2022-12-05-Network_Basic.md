@@ -251,4 +251,37 @@ tag: [네트워크, Subnetting, Supernetting, 국비교육과정(Private 클라�
 
   ![image](https://user-images.githubusercontent.com/84834776/207257236-c12358aa-2a3b-454b-a4f0-14bee8d86d7b.png)
   
+- 실습 2
+
+  ![image](https://user-images.githubusercontent.com/84834776/207491110-2f5c4907-4937-42f7-ac1a-88e237b25c64.png)
+
+  - Switch 전원 켜도 열어서 부팅할 것 !!!!!! (되는 것도 있고 안되는 스위치도 있음...)
+
+- 예약 Host 주소 지정
+  - Router 자동 할당된 주소 확인 명령어 : show ip dhcp binding
+  - Router 자동 할당된 주소 해제 명령어 : clear ip dhcp binding *
+  - Router 주소 충돌 확인 명령어 : show ip dhcp conflict
+  - 리눅스 : hardware-address (MAC 주소)
+  - 윈도우 : client-identifier (MAC 주소)
+  - 실습
+
+    ![image](https://user-images.githubusercontent.com/84834776/207537479-eea5ea08-fdfa-4881-ba79-71e8935ab34d.png)
+
+- DHCP Server : Broadcast 이용해 통신 (L2 주소 : FFFF.FFFF.FFFF, L3 주소 : 255.255.255.255) 
+
+  1. DHCP Discover : 출발지(MAC1/0.0.0.0) - 목적지(FFFF.FFFF.FFFF/255.255.255.255)
+
+    ![image](https://user-images.githubusercontent.com/84834776/207523700-b47e4d9e-9253-40af-b936-9cf8815e5a30.png)
+
+  2. DHCP Offer : 출발지(MAC2/192.168.10.254) - 목적지(FFFF.FFFF.FFFF/255.255.255.255), Payload(IP,S/M,G/W,DNS,임대)
+
+    ![image](https://user-images.githubusercontent.com/84834776/207523800-68602dd3-dfe1-448b-a739-62409e40f570.png)
+    
+  3. DHCP Request : 출발지(MAC1/0.0.0.0) - 목적지(FFFF.FFFF.FFFF/255.255.255.255), Payload(위와 같음)
+
+    ![image](https://user-images.githubusercontent.com/84834776/207523847-cceb2644-9e10-40bc-a6b1-1080361d4a64.png)
+    
+  4. DHCP ACK : 출발지(MAC2/192.168.10.254) - 목적지(FFFF.FFFF.FFFF/255.255.255.255), Payload(위와 같음)
+
+    ![image](https://user-images.githubusercontent.com/84834776/207523951-cc1d3215-c82b-4a73-bfa7-00be19527c71.png)
 
