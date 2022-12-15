@@ -303,3 +303,23 @@ tag: [네트워크, Subnetting, Supernetting, 국비교육과정(Private 클라�
     1. 처음 목적지 IP는 알고있지만, MAC 주소를 모르는 상태에서 FFFF.FFFF.FFFF 전송
     2. 목적지에서 출발지의 IP주소와 MAC 주소 정보를 확인하고, 목적지의 IP주소와 MAC 주소를 다시 출발지에게 전송
     3. 출발지와 목적지의 ARP 매핑, 이후 ping 전송 시 목적지 MAC 주소를 정확한 주소로 전송하게 됨.
+
+- Wireshark를 사용하여 DHCP 서버와 클라이언트 사이 기본 통신 과정 실습
+  
+  ![image](https://user-images.githubusercontent.com/84834776/207772387-6212f72c-dce7-464d-ac90-11c3184e415c.png)
+
+### ACL (Access Control List)
+
+- 라우터의 방화벽
+- 엑세스 리스트 제어방법에 따른 분류
+  - Standard Access List : 출발지 주소만 참고 (숫자 1 - 99)
+  - Extended Access List : 출발지, 목적지, 프로토콜, 사용 포트 번호 참고 (숫자 100 - 199)
+- 실습 1
+
+  ![image](https://user-images.githubusercontent.com/84834776/207785774-f38c6284-9579-46b0-adf1-83a3c970522b.png)
+
+- 실습 2
+
+  ![image](https://user-images.githubusercontent.com/84834776/207802709-3ebf109b-1cda-48a1-90e0-328e58c289f0.png)
+
+
