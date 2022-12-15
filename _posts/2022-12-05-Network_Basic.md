@@ -267,21 +267,39 @@ tag: [네트워크, Subnetting, Supernetting, 국비교육과정(Private 클라�
 
     ![image](https://user-images.githubusercontent.com/84834776/207537479-eea5ea08-fdfa-4881-ba79-71e8935ab34d.png)
 
-- DHCP Server : Broadcast 이용해 통신 (L2 주소 : FFFF.FFFF.FFFF, L3 주소 : 255.255.255.255) 
+- DHCP Server : Broadcast 통신 (L2 주소 : FFFF.FFFF.FFFF, L3 주소 : 255.255.255.255) 
+- DHCP Server - DHCP Relay Agent : Unicast 통신(일대일 통신 방식)
 
   > 1. DHCP Discover : 출발지(MAC1/0.0.0.0) - 목적지(FFFF.FFFF.FFFF/255.255.255.255)
 
     ![image](https://user-images.githubusercontent.com/84834776/207523700-b47e4d9e-9253-40af-b936-9cf8815e5a30.png)
 
-  > 2. DHCP Offer : 출발지(MAC2/192.168.10.254) - 목적지(FFFF.FFFF.FFFF/255.255.255.255), Payload(IP,S/M,G/W,DNS,임대)
+  > 2. DHCP Offer : 출발지(MAC2/192.168.10.254) - 목적지(MAC1/255.255.255.255), Payload(IP,S/M,G/W,DNS,임대)
 
     ![image](https://user-images.githubusercontent.com/84834776/207523800-68602dd3-dfe1-448b-a739-62409e40f570.png)
     
-  > 3. DHCP Request : 출발지(MAC1/0.0.0.0) - 목적지(FFFF.FFFF.FFFF/255.255.255.255), Payload(위와 같음)
+    - Payload에서 제안한 IP 주소룰 목적지(클라이언트) IP 주소로 출력 (※ 실제로는 255.255.255.255로 보내짐.)
+    
+  > 3. DHCP Request : 출발지(MAC1/0.0.0.0) - 목적지(MAC2/255.255.255.255), Payload(위와 같음)
 
     ![image](https://user-images.githubusercontent.com/84834776/207523847-cceb2644-9e10-40bc-a6b1-1080361d4a64.png)
     
-  > 4. DHCP ACK : 출발지(MAC2/192.168.10.254) - 목적지(FFFF.FFFF.FFFF/255.255.255.255), Payload(위와 같음)
+  > 4. DHCP ACK : 출발지(MAC2/192.168.10.254) - 목적지(MAC1/255.255.255.255), Payload(위와 같음)
 
     ![image](https://user-images.githubusercontent.com/84834776/207523951-cc1d3215-c82b-4a73-bfa7-00be19527c71.png)
+    
+    - Payload에서 제안한 IP 주소룰 목적지(클라이언트) IP 주소로 출력
+    
+- TCP / UDP
+  - 포트 간 통신 : DHCP UDP 디폴트 포트 67번 / DHCP Client UDP 디폴트 포트 68번 / HTTP 서버 TCP 디폴트 포트 80번 
+  - 포트 번호는 변경 가능
 
+- ARP (IP -> MAC)
+  - 목적지 간의 IP(L3) 주소를 MAC(L2) 주소로 매핑 시켜주는 프로토콜
+  - arp -a 명령어 : pc의 ip와 mac 주소 매핑 정보 확인
+
+- RARP (MAC -> IP)
+  - 목적지 간의 MAC(L2) 주소를 IP(L3) 주소로 역으로 매핑 시켜주는 프로토콜
+    1. 처음 목적지 IP는 알고있지만, MAC 주소를 모르는 상태에서 FFFF.FFFF.FFFF 전송
+    2. 목적지에서 출발지의 IP주소와 MAC 주소 정보를 확인하고, 목적지의 IP주소와 MAC 주소를 다시 출발지에게 전송
+    3. 출발지와 목적지의 ARP 매핑, 이후 ping 전송 시 목적지 MAC 주소를 정확한 주소로 전송하게 됨.
