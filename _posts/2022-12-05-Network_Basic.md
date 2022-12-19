@@ -352,6 +352,7 @@ tag: [네트워크, Subnetting, Supernetting, 국비교육과정(Private 클라�
     - 단계 1. 할당 받은 공인 주소 라우터에 연결 (ip nat pool cisco (할당받은 주소 범위) netmask (SubnetMask))
     - 단계 2. 내부 사설 주소 ACL
     - 단계 3. 외부 주소와 내부 주소 연결 (ip nat inside source list (ACL 번호) pool (cisco) overload)
+           
   > Static NAT 
     - 단계 1. 내부 IP 변환할 IP 주소 정적으로 입력
           
