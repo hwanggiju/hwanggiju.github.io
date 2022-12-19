@@ -314,12 +314,29 @@ tag: [네트워크, Subnetting, Supernetting, 국비교육과정(Private 클라�
 - 엑세스 리스트 제어방법에 따른 분류
   - Standard Access List : 출발지 주소만 참고 (숫자 1 - 99)
   - Extended Access List : 출발지, 목적지, 프로토콜, 사용 포트 번호 참고 (숫자 100 - 199)
-- 실습 1
 
-  ![image](https://user-images.githubusercontent.com/84834776/207785774-f38c6284-9579-46b0-adf1-83a3c970522b.png)
+- Standard Access List
+  - 실습 1 (Standard Access List)
 
-- 실습 2
+    ![image](https://user-images.githubusercontent.com/84834776/207785774-f38c6284-9579-46b0-adf1-83a3c970522b.png)
 
-  ![image](https://user-images.githubusercontent.com/84834776/207802709-3ebf109b-1cda-48a1-90e0-328e58c289f0.png)
+  - 실습 2 (Standard Access List)
+
+    ![image](https://user-images.githubusercontent.com/84834776/207802709-3ebf109b-1cda-48a1-90e0-328e58c289f0.png)
+  
+- Extended Access List
+  - 실습 1 (Extended Access List)
+    
+    ![image](https://user-images.githubusercontent.com/84834776/208335973-7cd8494f-9fcc-4eb4-a928-c4da505fa619.png)
+  
+  - 실습 2 (Extended Access List)
+
+    ![image](https://user-images.githubusercontent.com/84834776/208336026-d51da6ac-ecf9-4101-b0ec-c3cd4096e4c4.png)
+
+  - 실습 3 (Extended Access List)
+  
+    ![image](https://user-images.githubusercontent.com/84834776/208336645-bdf0c2aa-2bea-405b-9eaa-6607cc39ab3b.png)
+
+
 
 
