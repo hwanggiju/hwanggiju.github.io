@@ -358,4 +358,8 @@ tag: [네트워크, Subnetting, Supernetting, 국비교육과정(Private 클라�
           
   - 최종. 라우터 인터페이스 내부 외부 설정
   
+- 실습 2
+
+  ![image](https://user-images.githubusercontent.com/84834776/208370676-23c4814e-4edd-4eff-9279-74d6af7a69d8.png)
+
 
