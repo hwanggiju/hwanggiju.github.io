@@ -346,11 +346,15 @@ tag: [네트워크, Subnetting, Supernetting, 국비교육과정(Private 클라�
 
 - 실습 1
   
-  ![image](https://user-images.githubusercontent.com/84834776/208355487-03b89fd6-0b1e-40ca-ac78-86233671c1fd.png)
+  ![image](https://user-images.githubusercontent.com/84834776/208359834-ecc37093-ad0e-4350-981c-02677eff5dde.png)
   
-  - 단계 1. 할당 받은 공인 주소 라우터에 연결 (ip nat pool cisco (할당받은 주소 범위) netmask (SubnetMask))
-  - 단계 2. 내부 사설 주소 ACL
-  - 단계 3. 외부 주소와 내부 주소 연결 (ip nat inside source list (ACL 번호) pool (cisco) overload)
-  - 라우터 인터페이스 내부 외부 설정
+  > PAT(Port Address Translation), Static NAT
+    - 단계 1. 할당 받은 공인 주소 라우터에 연결 (ip nat pool cisco (할당받은 주소 범위) netmask (SubnetMask))
+    - 단계 2. 내부 사설 주소 ACL
+    - 단계 3. 외부 주소와 내부 주소 연결 (ip nat inside source list (ACL 번호) pool (cisco) overload)
+  > Static NAT 
+    - 단계 1. 내부 IP 변환할 IP 주소 정적으로 입력
+          
+  - 최종. 라우터 인터페이스 내부 외부 설정
   
 
