@@ -336,7 +336,21 @@ tag: [네트워크, Subnetting, Supernetting, 국비교육과정(Private 클라�
   - 실습 3 (Extended Access List)
   
     ![image](https://user-images.githubusercontent.com/84834776/208336645-bdf0c2aa-2bea-405b-9eaa-6607cc39ab3b.png)
+    
+### NAT(Network Address Translation)
+ 
+- IP주소 변환
+  - 사설 주소 돈 x, 공인 주소 돈 o
+  - 사설 주소를 공인 주소로 변환 : 내부 -> 외부 
+  - 공인 주소를 사설 주소로 변환 : 외부 -> 내부
 
-
-
+- 실습 1
+  
+  ![image](https://user-images.githubusercontent.com/84834776/208355487-03b89fd6-0b1e-40ca-ac78-86233671c1fd.png)
+  
+  - 단계 1. 할당 받은 공인 주소 라우터에 연결 (ip nat pool cisco (할당받은 주소 범위) netmask (SubnetMask))
+  - 단계 2. 내부 사설 주소 ACL
+  - 단계 3. 외부 주소와 내부 주소 연결 (ip nat inside source list (ACL 번호) pool (cisco) overload)
+  - 라우터 인터페이스 내부 외부 설정
+  
 
