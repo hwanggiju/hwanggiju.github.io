@@ -364,7 +364,12 @@ tag: [네트워크, Subnetting, Supernetting, 국비교육과정(Private 클라�
   
 - 실습 3
 
-  ![image](https://user-images.githubusercontent.com/84834776/208585873-92d58884-88ff-4e03-bc0c-2c984c2d1517.png)
-
+  ![image](https://user-images.githubusercontent.com/84834776/208601659-14b0d5d7-d4b4-4d2d-b7ed-0454cc52a0f9.png)
+  
+  - 목표 : HTTP-B로 오는 외부 주소 1.1.34.10, 웹 통신 가능, HTTP-A로 오는 외부 주소 10.1.1.1
+  - R3 라우터 2중 NAT 설정
+  - 가상 IP 주소 생성 (loopback)
+    - interface loopback 0
+    - ip address 10.1.1.1 255.255.255.0
 
 
