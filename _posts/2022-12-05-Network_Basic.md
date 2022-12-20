@@ -361,5 +361,10 @@ tag: [네트워크, Subnetting, Supernetting, 국비교육과정(Private 클라�
 - 실습 2
 
   ![image](https://user-images.githubusercontent.com/84834776/208370676-23c4814e-4edd-4eff-9279-74d6af7a69d8.png)
+  
+- 실습 3
+
+  ![image](https://user-images.githubusercontent.com/84834776/208585873-92d58884-88ff-4e03-bc0c-2c984c2d1517.png)
+
 
 
