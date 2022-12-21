@@ -387,8 +387,9 @@ tag: [네트워크, Subnetting, Supernetting, 국비교육과정(Private 클라�
 
   ![image](https://user-images.githubusercontent.com/84834776/208831018-234fad91-f016-46b7-839c-6a9538fa7cc0.png)
 
+- auto-summary : 자동 축약 / no auto-summary : 축약 x
 
-
+  ![image](https://user-images.githubusercontent.com/84834776/208838285-b4de1300-97a0-4079-8964-2c2643efb07e.png)
 
 
 
