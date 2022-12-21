@@ -372,4 +372,24 @@ tag: [네트워크, Subnetting, Supernetting, 국비교육과정(Private 클라�
     - interface loopback 0
     - ip address 10.1.1.1 255.255.255.0
 
+### DHCP / ACL / NAT 최종 실습
+  ![image](https://user-images.githubusercontent.com/84834776/208798455-a8b40c5c-26c4-4be5-8a20-68cd09a154ce.png)
+
+
+### Dynamic Routing
+- 라우터의 지도를 교환
+- RIP(R), EIGRP(D, D EX), OSPF(O, OIA, E1/E2, N1/N2) : 내부 라우터들을 연결시켜 주는 역할   =>  BGP (B) : 내부 라우터를 하나로 통합시켜 주는 역할
+- RIP : Classful Network 주소까지만 인식, 소규모 네트워크에서 활용
+- RIPv2 [120/3]
+  - 120 : 관리자 거리값 (Administrative Distance : AD 값)
+  - 3 : 메트릭 값 (Metric) - Hop(최대 15 hop), 16 hop(목적지 도달 x)
+- 업데이트 30초 간격
+
+  ![image](https://user-images.githubusercontent.com/84834776/208831018-234fad91-f016-46b7-839c-6a9538fa7cc0.png)
+
+
+
+
+
+
 
