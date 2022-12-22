@@ -380,17 +380,47 @@ tag: [네트워크, Subnetting, Supernetting, 국비교육과정(Private 클라�
 - 라우터의 지도를 교환
 - RIP(R), EIGRP(D, D EX), OSPF(O, OIA, E1/E2, N1/N2) : 내부 라우터들을 연결시켜 주는 역할   =>  BGP (B) : 내부 라우터를 하나로 통합시켜 주는 역할
 - RIP : Classful Network 주소까지만 인식, 소규모 네트워크에서 활용
-- RIPv2 [120/3]
-  - 120 : 관리자 거리값 (Administrative Distance : AD 값)
-  - 3 : 메트릭 값 (Metric) - Hop(최대 15 hop), 16 hop(목적지 도달 x)
-- 업데이트 30초 간격
+- RIPv2 Protocol [120/3]
+  - 관리자 거리값(Administrative Distance) : 120
+  - Metrix : 15 Hop, 16 Hop(목적지 도달 x)
+  - Code : R
+  - Update : 30초 <예> clear ip route *
 
   ![image](https://user-images.githubusercontent.com/84834776/208831018-234fad91-f016-46b7-839c-6a9538fa7cc0.png)
 
 - auto-summary : 자동 축약 / no auto-summary : 축약 x
 
   ![image](https://user-images.githubusercontent.com/84834776/208838285-b4de1300-97a0-4079-8964-2c2643efb07e.png)
+  
+- 실습
 
+  ![image](https://user-images.githubusercontent.com/84834776/209036150-f9c3ac6a-8f54-4ed1-90d5-09130d9e361b.png)
 
+- EIGRP Protocol
+  - 관리자 거리값(Administrative Distance) : 90(D), 170(D EX)
+  - Metrix : B, D, R, L, M
+  - Code : D(같은 AS), D EX(재분배)
+  - Update : 순간 
 
+  ![image](https://user-images.githubusercontent.com/84834776/209040581-ac7a482f-7085-4f68-b8c6-ea4f5423f142.png)
+
+- no ip domain-lookup : 명령어 잘못 입력 시 도메인에게 물어보지 않고 바로 처리
+  
+- OSPF Protocol
+  - AREA가 하나 이상인 경우 AREA 0 (Back-Born Network)가 있어야 함.
+  - 모든 AREA가 AREA 0에 물리적으로 붙어있어야 함.
+  - OSPF는 기본 구성시 Loopback 주소를 /32로 넘김
+  - OSPF 구성 시 Loopback 주소를 /24로 넘김
+    - interface lo 0
+    - ip ospf network point-to-point
+
+  - 관리자 거리값(Administrative Distance) : 110
+  - Metrix : Cost
+  - Code : O(같은 AS), OIA(다른 Area), E1/E2/N1/N2(재분배)
+  - Update : 순간
+
+  ![image](https://user-images.githubusercontent.com/84834776/209053348-7646f667-d2d3-4a53-bc1c-667cbc6b9056.png)
+  
+- AD 값 (Administrative Distance)
+  - RIPv2(120) < OSPF(110) < EIGRP(90) < Static route(1) < Connected(0)
 
