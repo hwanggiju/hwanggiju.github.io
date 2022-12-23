@@ -424,3 +424,26 @@ tag: [네트워크, Subnetting, Supernetting, 국비교육과정(Private 클라�
 - AD 값 (Administrative Distance)
   - RIPv2(120) < OSPF(110) < EIGRP(90) < Static route(1) < Connected(0)
 
+- 재분배
+  
+  > RIP
+    - router rip
+    - redistribute [프로토콜] metric [1 ~ 15]
+
+  > EIGRP
+    - router eigrp 100
+    - redistribute [프로토콜] metric [bandwidth] [delay] [ 신뢰도 ] [load] [MTU]
+
+  > OSPF
+    - router ospf 1
+    - redistribute [프로토콜] { subnets(defaul 값 ) metric 20(defaul 값 ) } <- 생략가능
+
+  ![image](https://user-images.githubusercontent.com/84834776/209276028-20f7479c-eb91-44f0-b8b3-1e1ce81bf7df.png)
+
+- 실습
+  ![image](https://user-images.githubusercontent.com/84834776/209286221-41309c71-fa6c-4771-be7b-d90aeebcb7b3.png)
+  - 방법 1. 네트워크 주소 할당 (기존 방식)
+  - 방법 2. 라우터에 물리적으로 연결된 주소 연결 (redistribute connected metric *)
+  - 방법 3. 정적 할당 후 연결 (redistribute static metric *)
+
+
