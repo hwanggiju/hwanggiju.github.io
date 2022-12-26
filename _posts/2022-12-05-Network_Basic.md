@@ -422,7 +422,7 @@ tag: [네트워크, Subnetting, Supernetting, 국비교육과정(Private 클라�
   ![image](https://user-images.githubusercontent.com/84834776/209053348-7646f667-d2d3-4a53-bc1c-667cbc6b9056.png)
   
 - AD 값 (Administrative Distance)
-  - RIPv2(120) < OSPF(110) < EIGRP(90) < Static route(1) < Connected(0)
+  - RIPv2(120) < OSPF(110) < EIGRP(90, 170, 5) < Static route(1) < Connected(0)
 
 - 재분배
   
@@ -440,10 +440,33 @@ tag: [네트워크, Subnetting, Supernetting, 국비교육과정(Private 클라�
 
   ![image](https://user-images.githubusercontent.com/84834776/209276028-20f7479c-eb91-44f0-b8b3-1e1ce81bf7df.png)
 
-- 실습
+- 실습 1
+
   ![image](https://user-images.githubusercontent.com/84834776/209286221-41309c71-fa6c-4771-be7b-d90aeebcb7b3.png)
   - 방법 1. 네트워크 주소 할당 (기존 방식)
   - 방법 2. 라우터에 물리적으로 연결된 주소 연결 (redistribute connected metric *)
   - 방법 3. 정적 할당 후 연결 (redistribute static metric *)
 
+- 실습 2
 
+  ![image](https://user-images.githubusercontent.com/84834776/209488689-61df59dc-a767-4426-9491-e68e002df09d.png)
+
+### 괸리자 거리값 Administrative Distance(AD)
+
+- 특정 라우터에서 AD값을 조정하면 해당 라우터에서만 영향을 미치며, 다른 라우터로 조정한 AD값이 전달되지 않는다.
+- 관리자 거리값 조정
+- clear ip eigrp neighbor * : 모든 이웃된 라우터 해제하고 재연결
+  
+  ![image](https://user-images.githubusercontent.com/84834776/209507230-0ed3df97-153c-4b1c-b311-2a9649b24877.png)
+
+  > RIP
+    - router rip
+    - distance rip 220
+
+  > EIGRP
+    - router eigrp 100
+    - distance eigrp 80 120
+
+  > OSPF
+    - router ospf 1
+    - distance ospf 150
