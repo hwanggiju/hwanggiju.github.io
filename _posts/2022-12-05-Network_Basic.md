@@ -410,7 +410,7 @@ tag: [네트워크, Subnetting, Supernetting, 국비교육과정(Private 클라�
   - Sucessor
   - Feasible Sucessor
 
-    ![image](https://user-images.githubusercontent.com/84834776/209040581-ac7a482f-7085-4f68-b8c6-ea4f5423f142.png)
+  ![image](https://user-images.githubusercontent.com/84834776/209040581-ac7a482f-7085-4f68-b8c6-ea4f5423f142.png)
 
   - EIGRP unequal loadbalancing 실습
 
