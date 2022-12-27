@@ -415,6 +415,10 @@ tag: [네트워크, Subnetting, Supernetting, 국비교육과정(Private 클라�
   - EIGRP unequal loadbalancing 실습
 
     ![EIGRP unequal loadbalancing](https://user-images.githubusercontent.com/84834776/209616085-d1b0b445-89bd-40d9-8b33-88aa1d58d867.jpg)
+    
+  - EIGRP에서 0.0.0.0 전달 방법
+
+    ![EIGRP에서 0 0 0 0 전달 방법](https://user-images.githubusercontent.com/84834776/209627091-f7944873-36b0-4e00-b1cf-0f41a3bce5fb.jpg)
 
   - no ip domain-lookup : 명령어 잘못 입력 시 도메인에게 물어보지 않고 바로 처리
   
