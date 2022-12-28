@@ -419,6 +419,10 @@ tag: [네트워크, Subnetting, Supernetting, 국비교육과정(Private 클라�
   - EIGRP에서 0.0.0.0 전달 방법
 
     ![EIGRP에서 0 0 0 0 전달 방법](https://user-images.githubusercontent.com/84834776/209627091-f7944873-36b0-4e00-b1cf-0f41a3bce5fb.jpg)
+    
+  - EIGRP에서 축약을 이용한 0.0.0.0 전달(복습)
+
+    ![EIGRP에서 축약을 이용한 0 0 0 0 전달(복습)](https://user-images.githubusercontent.com/84834776/209746640-2033c09d-73ff-413b-bb4d-2ecf22faad9b.jpg)
 
   - no ip domain-lookup : 명령어 잘못 입력 시 도메인에게 물어보지 않고 바로 처리
   
@@ -436,7 +440,26 @@ tag: [네트워크, Subnetting, Supernetting, 국비교육과정(Private 클라�
   - Update : 순간
 
     ![image](https://user-images.githubusercontent.com/84834776/209053348-7646f667-d2d3-4a53-bc1c-667cbc6b9056.png)
+    
+  - OSPF DR/BDR/DROther
   
+    - LSA 중계 역할을 하는 라우터를 DR(Designated Router) 이라고 하며, DR에 장애가 발생하면 대신 DR 역할을 하는 라우터를 BDR(Backup DR) 이라고 한다.
+
+    - DROther 간에는 라우팅 교환 x
+
+  - OSPF DR/BDR/DROther 선출 순서
+    
+    - 스템 1. OSPF 우선순위가 가장 높은 라우터가 DR이 된다. 다음 순위의 라우터가 BDR이 된다.
+
+    - 스텝 2. OSPF 우선순위가 모두 동일하면(기본값 1), 라우터 ID가 높은 것이 DR, 그 다음이 BDR이 된다.
+
+    - 스텝 3. 한 번 DR/BDR이 선출되면 더 높은 우선순위의 라우터가 추가되어도 라우터를 재부팅하거나 clear ip ospf process
+명령어를 사용하기 전에는 DR/BDR을 다시 선출하지 않는다.
+
+    - 스텝 4. DR이 다운되면 BDR이 DR이 되고, BDR을 새로 선출한다. BDR이 다운되면 BDR을 새로 선출한다.
+    
+    ![image](https://user-images.githubusercontent.com/84834776/209773192-09c6bfb9-80fa-4514-92e1-6f9a4d65d38e.png)
+    
 - AD 값 (Administrative Distance)
   - RIPv2(120) < OSPF(110) < EIGRP(90, 170, 5) < Static route(1) < Connected(0)
 
@@ -486,3 +509,4 @@ tag: [네트워크, Subnetting, Supernetting, 국비교육과정(Private 클라�
   > OSPF
     - router ospf 1
     - distance ospf 150
+
