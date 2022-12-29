@@ -460,6 +460,18 @@ tag: [네트워크, Subnetting, Supernetting, 국비교육과정(Private 클라�
     
     ![image](https://user-images.githubusercontent.com/84834776/209773192-09c6bfb9-80fa-4514-92e1-6f9a4d65d38e.png)
     
+  - OSPF 축약
+
+    ![image](https://user-images.githubusercontent.com/84834776/209902843-b54ee647-c412-4b77-9a99-f89f6384e0a8.png)
+    
+    > ASBR 축약
+      - router [protocol]
+      - summary-address 축약 네트워크 서브넷마스크
+
+    > ABR 축약
+      - router [protocol]
+      - area * range 축약 네트워크 서브넷마스크
+
 - AD 값 (Administrative Distance)
   - RIPv2(120) < OSPF(110) < EIGRP(90, 170, 5) < Static route(1) < Connected(0)
 
