@@ -472,6 +472,11 @@ tag: [네트워크, Subnetting, Supernetting, 국비교육과정(Private 클라�
       - router [protocol]
       - area * range 축약 네트워크 서브넷마스크
 
+  - OSPF Default Route 생성 하기
+
+    1. default-information originate always 입력
+    2. static 라우터 연결 후 default-information originate 입력
+
 - AD 값 (Administrative Distance)
   - RIPv2(120) < OSPF(110) < EIGRP(90, 170, 5) < Static route(1) < Connected(0)
 
