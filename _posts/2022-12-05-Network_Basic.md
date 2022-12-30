@@ -477,6 +477,10 @@ tag: [네트워크, Subnetting, Supernetting, 국비교육과정(Private 클라�
     1. default-information originate always 입력
     2. static 라우터 연결 후 default-information originate 입력
 
+  - OSPF Virtual-link
+
+    ![image](https://user-images.githubusercontent.com/84834776/210036939-1b5b1880-e4b7-48e0-a9b8-ec6432494807.png)
+
 - AD 값 (Administrative Distance)
   - RIPv2(120) < OSPF(110) < EIGRP(90, 170, 5) < Static route(1) < Connected(0)
 
