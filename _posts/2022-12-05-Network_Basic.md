@@ -481,6 +481,10 @@ tag: [네트워크, Subnetting, Supernetting, 국비교육과정(Private 클라�
 
     ![image](https://user-images.githubusercontent.com/84834776/210036939-1b5b1880-e4b7-48e0-a9b8-ec6432494807.png)
 
+  - OSPF LSA 종류
+    
+    ![image](https://user-images.githubusercontent.com/84834776/210044565-6ea3d117-a7fd-4b12-bcc4-34228322b997.png)
+    
 - AD 값 (Administrative Distance)
   - RIPv2(120) < OSPF(110) < EIGRP(90, 170, 5) < Static route(1) < Connected(0)
 
