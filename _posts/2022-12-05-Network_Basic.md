@@ -480,10 +480,17 @@ tag: [네트워크, Subnetting, Supernetting, 국비교육과정(Private 클라�
   - OSPF Virtual-link
 
     ![image](https://user-images.githubusercontent.com/84834776/210036939-1b5b1880-e4b7-48e0-a9b8-ec6432494807.png)
+    
+    - router-id x.x.x.x
+    - area [number] virtual-link x.x.x.x
+    - 주의 : router-id를 먼저 지정해주어야 함.
 
   - OSPF LSA 종류
     
     ![image](https://user-images.githubusercontent.com/84834776/210044565-6ea3d117-a7fd-4b12-bcc4-34228322b997.png)
+    
+    - 링크 상태 데이터베이스는 에어리어별로 관리되며, 동일한 에어리어에 소속된 내부 라우터들의 링크 상태 정보 데이터베이스 내용은 모두 동일
+    - LSA 들은 30 분마다 LSA 전체 정보를 전송하는 LSA Refresh 를 한다 무결성
     
 - AD 값 (Administrative Distance)
   - RIPv2(120) < OSPF(110) < EIGRP(90, 170, 5) < Static route(1) < Connected(0)
