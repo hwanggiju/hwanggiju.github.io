@@ -1,0 +1,41 @@
+---
+layout: single
+title:  "프로그래머스 > 코딩테스트 연습 > 연습문제 > 마법의 엘리베이터"
+categories: "Code"
+tag: [Coding Test, Algorithm]
+---
+
+# Programmers 마법의 엘리베이터 문제 풀이
+
+## 알고리즘
+    1. 일의 자리와 십의 자리를 구분
+    2. 일의 자리가 5보다 크다면, 올림
+    3. 일의 자리가 5와 같다면, 십의 자리를 확인하고, 십의 자리가 5보다 크다면 올림
+    4. storey의 10으로 나누어주고, 0이 될 때까지 반복
+
+### python 코드
+    ``` python 
+    def solution(storey):
+    answer = 0
+    while storey :
+        b = storey % 10
+        n = (storey // 10) % 10
+        
+        if b > 5 :
+            answer += 10 - b
+            storey += 10  
+        elif b == 5 :
+            answer += b
+            if n >= 5 :
+                storey += 10
+        else :
+            answer += b
+            
+        storey = storey // 10
+    return answer
+    ```
+
+### C++ 코드
+
+
+
