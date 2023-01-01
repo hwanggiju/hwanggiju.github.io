@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "디지털 스마트 부산 아카데미 최종 프로젝트"
-categories: "FinalProject"
+categories: "Project"
 tag: [python, 소프트웨어 교육 프로그램, 최종 프로젝트, YOLO, EfficientNet B0, 팀 프로젝트, 수상작]
 ---
 

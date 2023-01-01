@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "디지털 스마트 부산 아카데미 미니 프로젝트"
-categories: "미니프로젝트"
+categories: "Project"
 tag: [python, 미니 프로젝트, 소프트웨어 교육 프로그램, 데이터 수집 및 분석, YOLO, 팀 프로젝트]
 ---
 
