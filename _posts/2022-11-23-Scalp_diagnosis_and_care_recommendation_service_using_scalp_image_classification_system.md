@@ -176,8 +176,6 @@ tag: [python, 소프트웨어 교육 프로그램, 최종 프로젝트, YOLO, Ef
 
 - 페어 프로그래밍을 통해 코드 오류와 구현 코드 작성 방식을 토론하고 해결해 나갈 수 있었음.
 
-<img width="274" alt="image" src="https://user-images.githubusercontent.com/84834776/204474048-853305a4-4402-4597-a92e-3cdde5c164a8.png">
-
 ### 7. 프로젝트(Google Drive) 코드 링크
 
 [Code Link](https://drive.google.com/drive/folders/16w_G1dtGKbUNC5J1ic9c66D3OmZU2dHR?usp=share_link)
