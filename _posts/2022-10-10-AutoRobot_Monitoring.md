@@ -101,6 +101,6 @@ tag: [python, Lab, monitoring]
 
   [시연영상 Click](https://youtu.be/Vu4WY2ludRw)
 
-### 9. 깃허브 링크
+### 8. 깃허브 링크
 
   [Code Link](https://github.com/hwanggiju/autodriving_robot.git)
