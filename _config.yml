@@ -188,7 +188,6 @@ kramdown:
     block:
       line_numbers: true
 
-
 # Sass/SCSS
 sass:
   sass_dir: _sass
