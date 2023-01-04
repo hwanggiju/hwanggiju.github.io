@@ -542,3 +542,5 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
     - router ospf 1
     - distance ospf 150
 
+### RIP, EIGRP, OSPF 축약 / 재분배 / NAT 총  
+  ![image](https://user-images.githubusercontent.com/84834776/210472174-405b21f0-6ffa-44c7-ac8f-5e592aee81d0.png)
