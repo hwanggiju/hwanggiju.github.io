@@ -556,5 +556,21 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
     - DCE : 클럭 신호를 보내는 곳 (FR interface s1/0, s1/1, s1/2)
     - DTE : 클럭 신호를 받는 곳 (R1 interface s1/0, R3 interface s1/1, R4 interface s1/2)
 
+  - 실습
+
+    ![image](https://user-images.githubusercontent.com/84834776/210685796-300d7e39-ef94-4f2b-90d7-848eacab83b2.png)
+
   - Multipoint Frame-Relay
     
+    ![image](https://user-images.githubusercontent.com/84834776/210687417-93144a8b-af05-4dc2-92ec-b08354037f8f.png)
+
+
+
+
+
+
+
+
+
+
+
