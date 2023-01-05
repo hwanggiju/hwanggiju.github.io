@@ -564,9 +564,42 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
     
     ![image](https://user-images.githubusercontent.com/84834776/210687417-93144a8b-af05-4dc2-92ec-b08354037f8f.png)
 
+  - ip split-horizon : 루핑 방지 명령어
+
+    - hub and spoke topology (부분메시)
+    - ip split-horizon 상태일 때, 부분 메시에서 dhcp로 라우팅 교환이 인터페이스에서 전달되지 못함 -> no ip split-horizon 명령어로 해제
+    - RIP / EIGRP
+
+      ![image](https://user-images.githubusercontent.com/84834776/210717821-65bbbdac-3d72-489a-8c74-508c0400ee16.png)
+    
+    - OSPF
+
+      1. 논브로드캐스트 네트워크에서의 OSPF 설정
+
+        ![image](https://user-images.githubusercontent.com/84834776/210719645-4042221c-9080-4c6f-b2bd-9de34863768c.png)
+        
+        - 네트워크 타입 일치
+        - 네이버 수동 지정
+      
+      2. 브로드캐스트 네트워크에서의 OSPF 설정
+
+        ![image](https://user-images.githubusercontent.com/84834776/210723514-a2757565-8112-4697-a241-997bf5d06300.png)
+
+        - 네트워크 타입 일치
+        - 네이버 자동 지정
+
+      3. 포인트 투 멀티포인트 네트워크에서의 OSPF 설정 (가장 빠름.)
+
+        ![image](https://user-images.githubusercontent.com/84834776/210723802-bcd5c712-0f9b-47c3-8570-b7cc8fb9a492.png)
+
+         - 네트워크 타입 일치
 
 
-
+        
+        
+      
+    
+    
 
 
 
