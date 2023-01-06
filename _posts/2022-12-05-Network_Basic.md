@@ -594,7 +594,7 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
 
          - 네트워크 타입 일치
   
-  - Frame-Relay / DHCP / 재분배 / NAT / DNS 설정
+  - Frame-Relay / DHCP(OSPF, EIGRP) / 재분배 / NAT / DNS 실습
 
     ![image](https://user-images.githubusercontent.com/84834776/210918399-83b3f26f-f760-40ae-8111-198c81fc6f82.png)
 
