@@ -593,6 +593,16 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
         ![image](https://user-images.githubusercontent.com/84834776/210723802-bcd5c712-0f9b-47c3-8570-b7cc8fb9a492.png)
 
          - 네트워크 타입 일치
+  
+  - Frame-Relay / DHCP / 재분배 / NAT / DNS 설정
+
+    ![image](https://user-images.githubusercontent.com/84834776/210918399-83b3f26f-f760-40ae-8111-198c81fc6f82.png)
+
+    - 까먹었던 부분 : 리눅스 웹 서버 구축 명령어(service httpd restart), 리눅스 DNS 주소 설정
+    - 몰랐던 부분 : PAT 공인주소 loopback으로 설정.
+    
+### BGP
+  
 
 
         
