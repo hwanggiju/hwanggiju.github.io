@@ -662,7 +662,7 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
     4. ge(greater or equal) - 같거나 클 때 (서브넷 마스크 길이), le(less or equal) - 같거나 작을 때 (서브넷 마스크 길이)
     5. RIP, EIGRP 등과 달리 OSPF 에서는 라우팅 정보를 인터페이스에서 송신할 때에는 차단할 수 없다.
     6. 필터링 명령어 : distribute-list 명령어
-    7. 
+    7. route-map 필터 순서는 ACL에서 필터되면 permit만 넘어가고, deny는 버려진 후 route-map에서 필터가 되는 구조이다.  
 
   - 실습
     
