@@ -13,21 +13,21 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
 
 ## 목차
 
-1. [네트워크 기초](### 1. 네트워크 기초)
-2. [Static Route](### 2. Static Route)
-3. [Subnetting](### 3. Subnetting)
-4. [Supernetting](### 4. Supernetting)
-5. [DHCP Server](### 5. DHCP Server)
-6. [ACL (Access Control List)](### 6. ACL (Access Control List))
-7. [NAT(Network Address Translation)](### 7. NAT(Network Address Translation))
-8. [DHCP / ACL / NAT 최종 실습](### 8. DHCP / ACL / NAT 최종 실습)
-9. [Dynamic Routing](### 9. Dynamic Routing)
-10. [괸리자 거리값 Administrative Distance(AD)](### 10. 괸리자 거리값 Administrative Distance(AD))
-11. [RIP, EIGRP, OSPF 축약 / 재분배 / NAT 종합 실습](### 11. RIP, EIGRP, OSPF 축약 / 재분배 / NAT 종합 실습)
-12. [Frame-Relay](### 12. Frame-Relay)
-13. [13. BGP](### 13. BGP)
+1. [네트워크 기초](### 네트워크 기초)
+2. [Static Route](### Static Route)
+3. [Subnetting](### Subnetting)
+4. [Supernetting](### Supernetting)
+5. [DHCP Server](### DHCP Server)
+6. [ACL (Access Control List)](### ACL (Access Control List))
+7. [NAT(Network Address Translation)](### NAT(Network Address Translation))
+8. [DHCP / ACL / NAT 최종 실습](### DHCP / ACL / NAT 최종 실습)
+9. [Dynamic Routing](### Dynamic Routing)
+10. [괸리자 거리값 Administrative Distance(AD)](### 괸리자 거리값 Administrative Distance(AD))
+11. [RIP, EIGRP, OSPF 축약 / 재분배 / NAT 종합 실습](### RIP, EIGRP, OSPF 축약 / 재분배 / NAT 종합 실습)
+12. [Frame-Relay](### Frame-Relay)
+13. [13. BGP](### BGP)
 
-### 1. 네트워크 기초
+### 네트워크 기초
 
 - ip주소(집주소) = x.x.x.x = 10진수.10진수.10진수.10진수 = 8bit.8bit.8bit.8bit = 32bit = Network 주소자리(동) + Host 주소자리(번지)
 
@@ -136,7 +136,7 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
 5. 각 pc 서버에서 ping 확인
 
 
-### 2. Static Route
+### Static Route
 
 ![image](https://user-images.githubusercontent.com/84834776/205839433-6baa3dc1-ecfd-4b03-b611-9fafd9e86431.png)
 
@@ -167,7 +167,7 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
 
 - Dynamic Routing : RIP, EIGRP, OSPF, BGP
 
-### 3. Subnetting
+### Subnetting
 
 - 장점
   1. 비용(IP 주소 임대) 절감
@@ -212,7 +212,7 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
 
     ![image](https://user-images.githubusercontent.com/84834776/206367458-b485bd87-933e-4ca5-98a9-fdcc99b4af82.png)
 
-### 4. Supernetting
+### Supernetting
 
 - 여러 개의 Network 주소를 1개의 Network 주소로 만들기
 - <예1>
@@ -236,7 +236,7 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
   
   ![image](https://user-images.githubusercontent.com/84834776/206974552-97d95104-69e3-4c42-8f2e-ef553c99af57.png)
   
-### 5. DHCP Server
+### DHCP Server
 
 - 서버(Sever) : 서비스 제공 <예> DHCP Server(IP 주소 제공)
 - 클라이언트(Client) : 서비스 요청 <예> DHCP 클라이언트(IP 주소)
@@ -324,7 +324,7 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
   
   ![image](https://user-images.githubusercontent.com/84834776/207772387-6212f72c-dce7-464d-ac90-11c3184e415c.png)
 
-### 6. ACL (Access Control List)
+### ACL (Access Control List)
 
 - 라우터의 방화벽
 - 엑세스 리스트 제어방법에 따른 분류
@@ -353,7 +353,7 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
   
     ![image](https://user-images.githubusercontent.com/84834776/208336645-bdf0c2aa-2bea-405b-9eaa-6607cc39ab3b.png)
     
-### 7. NAT(Network Address Translation)
+### NAT(Network Address Translation)
  
 - IP주소 변환
   - 사설 주소 돈 x, 공인 주소 돈 o
@@ -388,11 +388,11 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
     - interface loopback 0
     - ip address 10.1.1.1 255.255.255.0
 
-### 8. DHCP / ACL / NAT 최종 실습
+### DHCP / ACL / NAT 최종 실습
   ![image](https://user-images.githubusercontent.com/84834776/208798455-a8b40c5c-26c4-4be5-8a20-68cd09a154ce.png)
 
 
-### 9. Dynamic Routing
+### Dynamic Routing
 - 라우터의 지도를 교환
 - RIP(R), EIGRP(D, D EX), OSPF(O, OIA, E1/E2, N1/N2) : 내부 라우터들을 연결시켜 주는 역할   =>  BGP (B) : 내부 라우터를 하나로 통합시켜 주는 역할
 > RIP Protocol : Classful Network 주소까지만 인식, 소규모 네트워크에서 활용
@@ -538,7 +538,7 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
 
   ![image](https://user-images.githubusercontent.com/84834776/209488689-61df59dc-a767-4426-9491-e68e002df09d.png)
 
-### 10. 괸리자 거리값 Administrative Distance(AD)
+### 괸리자 거리값 Administrative Distance(AD)
 
 - 특정 라우터에서 AD값을 조정하면 해당 라우터에서만 영향을 미치며, 다른 라우터로 조정한 AD값이 전달되지 않는다.
 - 관리자 거리값 조정
@@ -558,10 +558,10 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
     - router ospf 1
     - distance ospf 150
 
-### 11. RIP, EIGRP, OSPF 축약 / 재분배 / NAT 종합 실습
+### RIP, EIGRP, OSPF 축약 / 재분배 / NAT 종합 실습
   ![image](https://user-images.githubusercontent.com/84834776/210472174-405b21f0-6ffa-44c7-ac8f-5e592aee81d0.png)
   
-### 12. Frame-Relay
+### Frame-Relay
 
   - Point-to-Point Frame-Relay
     - show frame-relay map : frame-relay 지도 확인 명령어
@@ -617,7 +617,7 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
     - 실습하면서 까먹었던 부분 : 리눅스 웹 서버 구축 명령어(service httpd restart), 리눅스 DNS 주소 설정할 때 주소 입력 변수가 뭐였는지 까먹어서 찾아보았다.
     - 실습하면서 몰랐던 부분 : PAT 공인주소 loopback으로 설정 후 라우팅하면 된다.
     
-### 13. BGP
+### BGP
   
 
 
