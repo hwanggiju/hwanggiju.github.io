@@ -14,19 +14,19 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
 ## 목차
 
 1. [네트워크 기초](#네트워크-기초)
-2. [Static Route](#Static-Route)
-3. [Subnetting](#Subnetting)
-4. [Supernetting](#Supernetting)
-5. [DHCP Server](#DHCP-Server)
-6. [ACL (Access Control List)](#ACL-(Access-Control-List))
-7. [NAT(Network Address Translation)](#NAT(Network-Address-Translation))
-8. [DHCP / ACL / NAT 최종 실습](#DHCP-/-ACL-/-NAT-최종-실습)
-9. [Dynamic Routing](#Dynamic-Routing)
-10. [괸리자 거리값 Administrative Distance(AD)](#괸리자-거리값-Administrative-Distance(AD))
-11. [RIP, EIGRP, OSPF 축약 / 재분배 / NAT 종합 실습](#RIP,-EIGRP,-OSPF-축약-/-재분배-/-NAT-종합-실습)
-12. [Frame-Relay](#Frame-Relay)
-13. [Filtering](#Filtering)
-14. [BGP](#BGP)
+2. [Static Route](#static-route)
+3. [Subnetting](#subnetting)
+4. [Supernetting](#supernetting)
+5. [DHCP Server](#dhcp-server)
+6. [ACL](#acl)
+7. [NAT](#nat)
+8. [DHCP ACL NAT 최종 실습](#dhcp-acl-nat-최종-실습)
+9. [Dynamic Routing](#dynamic-routing)
+10. [괸리자 거리값](#괸리자-거리값)
+11. [RIP EIGRP OSPF 축약 재분배 NAT 종합 실습](#rip-eigrp-ospf-축약-재분배-nat-종합-실습)
+12. [Frame-Relay](#frame-relay)
+13. [Filtering](#filtering)
+14. [BGP](#bgp)
 
 --------------------------------
 
@@ -338,8 +338,9 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
 
 ----------------------------------
 
-### ACL (Access Control List)
+### ACL
 
+- Access Control List(ACL)
 - 라우터의 방화벽
 - 엑세스 리스트 제어방법에 따른 분류
   - Standard Access List : 출발지 주소만 참고 (숫자 1 - 99)
@@ -370,8 +371,9 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
 
 ----------------------------------
 
-### NAT(Network Address Translation)
- 
+### NAT
+
+- Network Address Translation(NAT)
 - IP주소 변환
   - 사설 주소 돈 x, 공인 주소 돈 o
   - 사설 주소를 공인 주소로 변환 : 내부 -> 외부 
@@ -407,7 +409,7 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
 
 ----------------------------------
 
-### DHCP / ACL / NAT 최종 실습
+### DHCP ACL NAT 최종 실습
 
   ![image](https://user-images.githubusercontent.com/84834776/208798455-a8b40c5c-26c4-4be5-8a20-68cd09a154ce.png)
 
@@ -563,8 +565,9 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
 ----------------------------------
 
 
-### 괸리자 거리값 Administrative Distance(AD)
+### 괸리자 거리값
 
+- Administrative Distance(AD)
 - 특정 라우터에서 AD값을 조정하면 해당 라우터에서만 영향을 미치며, 다른 라우터로 조정한 AD값이 전달되지 않는다.
 - 관리자 거리값 조정
 - clear ip eigrp neighbor * : 모든 이웃된 라우터 해제하고 재연결
@@ -585,7 +588,7 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
 
 ----------------------------------
 
-### RIP, EIGRP, OSPF 축약 / 재분배 / NAT 종합 실습
+### RIP EIGRP OSPF 축약 재분배 NAT 종합 실습
   ![image](https://user-images.githubusercontent.com/84834776/210472174-405b21f0-6ffa-44c7-ac8f-5e592aee81d0.png)
   
   
