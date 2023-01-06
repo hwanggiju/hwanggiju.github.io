@@ -25,7 +25,8 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
 10. [괸리자 거리값 Administrative Distance(AD)](#괸리자-거리값-Administrative-Distance(AD))
 11. [RIP, EIGRP, OSPF 축약 / 재분배 / NAT 종합 실습](#RIP,-EIGRP,-OSPF-축약-/-재분배-/-NAT-종합-실습)
 12. [Frame-Relay](#Frame-Relay)
-13. [13. BGP](#BGP)
+13. [Filtering](#Filtering)
+14. [BGP](#BGP)
 
 ### 네트워크 기초
 
@@ -616,7 +617,9 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
 
     - 실습하면서 까먹었던 부분 : 리눅스 웹 서버 구축 명령어(service httpd restart), 리눅스 DNS 주소 설정할 때 주소 입력 변수가 뭐였는지 까먹어서 찾아보았다.
     - 실습하면서 몰랐던 부분 : PAT 공인주소 loopback으로 설정 후 라우팅하면 된다.
-    
+
+### Filtering
+
 ### BGP
   
 
