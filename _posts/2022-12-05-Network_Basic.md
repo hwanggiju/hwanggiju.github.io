@@ -674,10 +674,14 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
       
       ![image](https://user-images.githubusercontent.com/84834776/210937413-4fa0a84e-873a-41f3-8db3-b04da76b4603.png)
       
+      - Numbered-ACL 지정하는 방식 한번 더 복습하기.
+      
     - Named-ACL로 조건 지정
 
       ![image](https://user-images.githubusercontent.com/84834776/210947725-bbbf5c33-084c-4037-8b50-be942066af55.png)
-
+      
+      - Named-ACL 지정하는 방식 한번 더 복습하기.
+      
     - route-map 필터링
 
       ![image](https://user-images.githubusercontent.com/84834776/210947321-95606eff-f304-4f12-b045-b34b254b2075.png)
