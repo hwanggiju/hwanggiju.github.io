@@ -654,7 +654,34 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
 
 ### Filtering
 
-  - 
+  - 이론
+
+    1. prefix-list 는 대소문자 구분한다.
+    2. 명령어 구조 : ip prefix-list NETS (seq 7) deny x.x.x.x/(subnetmask 길이)
+    3. prefix-list 확인 명령어 : show ip prefix-list
+    4. ge(greater or equal) - 같거나 클 때 (서브넷 마스크 길이), le(less or equal) - 같거나 작을 때 (서브넷 마스크 길이)
+    5. RIP, EIGRP 등과 달리 OSPF 에서는 라우팅 정보를 인터페이스에서 송신할 때에는 차단할 수 없다.
+    6. 필터링 명령어 : distribute-list 명령어
+    7. 
+
+  - 실습
+    
+    - prefix로 조건 지정
+    
+      ![image](https://user-images.githubusercontent.com/84834776/210937799-9ed8b26b-f9ce-480f-aaa6-ba536444256a.png)
+    
+    - Numbered-ACL로 조건 지정
+      
+      ![image](https://user-images.githubusercontent.com/84834776/210937413-4fa0a84e-873a-41f3-8db3-b04da76b4603.png)
+      
+    - Named-ACL로 조건 지정
+
+      ![image](https://user-images.githubusercontent.com/84834776/210947725-bbbf5c33-084c-4037-8b50-be942066af55.png)
+
+    - route-map 필터링
+
+      ![image](https://user-images.githubusercontent.com/84834776/210947321-95606eff-f304-4f12-b045-b34b254b2075.png)
+
 
 ----------------------------------
 
