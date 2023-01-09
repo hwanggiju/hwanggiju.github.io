@@ -695,7 +695,7 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
 
       1. R1에서 route-map 2개의 명령어를 통해 192.168.10.0/24 만 거부하고 나머지는 전부 허용하게 설정한다.
       2. 단, prefix-list 조건 지정은 전부 permit만 사용한다.    
-
+      <br/>
       - 문제 해결
 
       1. 먼저, 각 라우터의 인터페이스에 주소를 넣어준다.
@@ -703,7 +703,7 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
       3. prefix-list 명령어로 192.168.10.0/24를 permit한 후, route-map cisco deny 10을 설정하고 prefix-list로 지정한 조건과 match 시켜준다.
       4. <*이 문제의 핵심*> route-map cisco [permit] 20을 설정한 후, 아무런 match와 set이 없다면 '나머지 모든 네트워크는 별도의 수정없이 그대로 허용'하라는 의미로 조건을 지정해준다.
       5. 결과적으로 첫번째 조건으로 192.168.10.0 네트워크는 거부되어지고, 두번째 조건으로 모든 네트워크가 허용된다.
-
+      <br/>
       - 결과 (show ip route)
         
         ![image](https://user-images.githubusercontent.com/84834776/211228420-5e2f1f9a-cd4b-41d1-ad34-97aa3e0f7b92.png)
