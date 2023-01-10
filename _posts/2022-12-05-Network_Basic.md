@@ -763,8 +763,8 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
     1. BGP는 좀 더 안정되고, 정책에 의해 최적 경로를 선출한다. 
     2. BGP는 IGP(RIP, EIGRP, OSPF)에 비해 컨버전스는 느리지만, 대용량의 라우팅 정보를 교환할 수 있다.
     3. 서로 붙어 있지 않고 떨어진 장비와도 neighbor를 맺을 수 있다.
-    4. 같은 BGP AS 번호 안에서 교환하는 네트워크를 IBGP 교환이라고 말한다.
-    5. 다른 BGP AS 번호 사이에서 교환되는 네트워크를 EBGP 교환이라고 말한다.
+    4. 같은 BGP AS 번호 안에서 교환하는 네트워크를 IBGP 구간이라고 말한다.
+    5. 다른 BGP AS 번호 사이에서 교환되는 네트워크를 EBGP 구간 또는 DMZ 구간이라고 말한다.
     6. BGP는 라우터 간에 연결된 네트워크 정보가 네이버를 통해 정보 교환됨으로 pc간 네트워크만 지정해주어도 통신이 가능하다.
     7. show ip bgp 명령어로 bgp 테이블 연결 상태를 확인해 볼 수 있다.
     8. IBGP는 관리자 거리값(AD)가 200이고, TTL(Time To Live) 값은 255로 확인해 볼 수 있다.
@@ -772,8 +772,19 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
     
     ※ TTL은 컴퓨터나 네트워크에서 데이터의 유효 기간을 나타내기 위한 방법이다.
         
-        
+  * 실습
+  
+    - 기본 구성
       
+      1. 이웃 간 라우팅 구성
+  
+      ![image](https://user-images.githubusercontent.com/84834776/211440466-b04bd088-24f8-44f8-b592-7f810c68fc2d.png)
+  
+      2. loopback 간 라우팅 구성
+  
+      ![image](https://user-images.githubusercontent.com/84834776/211444037-ac9ebd05-ef10-4f90-a9ff-e13d3810c1f9.png)
+        
+     
     
     
 
