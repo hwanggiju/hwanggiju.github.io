@@ -797,9 +797,9 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
  
       ![image](https://user-images.githubusercontent.com/84834776/211692417-cc3ccf14-de13-48b8-ab2e-a2a2a1ced229.png)
 
-      :white_check_mark: 헷갈렸던 점 : loopback이 BGP에만 속해 있고 라우팅 프로토콜에서는 속하지 않았을 경우, 이웃 주소끼리 정적으로 loopback 주소를 지정해주어야 한다.    
+      :heavy_check_mark: 헷갈렸던 점 : loopback이 BGP에만 속해 있고 라우팅 프로토콜에서는 속하지 않았을 경우, 이웃 주소끼리 정적으로 loopback 주소를 지정해주어야 한다.    
       <br/>
-      :white_check_mark: 알고있지만 기억해야 할 것 : 다른 BGP 영역 테이블을 받아오기 위해서는 EBGP 구간 라우터에 정적으로 주소를 지정해 주어야 한다.
+      :heavy_check_mark: 알고있지만 기억해야 할 것 : 다른 BGP 영역 테이블을 받아오기 위해서는 EBGP 구간 라우터에 정적으로 주소를 지정해 주어야 한다.
   
     - BGP Split Horizon 법칙 해결 -> Full Mesh 설정 (모든 라우터와 네이버 구성)
         
@@ -815,7 +815,20 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
   
     - BGP Split Horizon 법칙 해결 -> Confederation
       
-      ![image](https://user-images.githubusercontent.com/84834776/211716782-150ad2d6-92fa-4a6d-aae6-2df77fd63b04.png)
+      ![image](https://user-images.githubusercontent.com/84834776/211717210-5e0cf369-8edd-4e1e-bcdc-e9d1a29b2ec9.png)
   
-      :pushpin: 하나의 BGP AS * 에 Sub AS 번호로 쪼개어 ebgp 구조를 만들어 줄 수 있게하는 방법이다.
+      :pushpin: 하나의 BGP AS (번호) 에 Sub AS (번호)로 쪼개어 ebgp 구조를 만들어 줄 수 있게하는 방법이다.
 
+    - BGP Split Horizon 법칙 해결 종합 실습 (Full Mesh 설정, Route Reflector, Confederation)
+  
+      ![image](https://user-images.githubusercontent.com/84834776/211730672-d31e864c-620b-4b98-8ce3-90b8e9aee5ed.png)
+      
+      - :bulb: 문제> 각 라우팅 프로토콜마다 다른 BGP Split Horizon 법칙 해결방법을 적용하고, 라우터 loopback 간 BGP 테이블을 구성한다.
+      - :heavy_check_mark: 해결1> 각 라우터에 루프백 주소와 인터페이스 주소를 넣어주고, 해당하는 라우팅 프로토콜을 적용시켜 주었다.
+      - :heavy_check_mark: 해결2> 그 후 루프백 주소를 통해 ibgp 구성의 neighbor를 설정해주고, ebgp 구성에는 물리적으로 설정하였다.
+      - :heavy_check_mark: 해결3> 각 라우터마다 bgp 테이블을 확인하여 모든 루프백 주소가 잘 들어왔는지 확인해보고, 잘 들어와있다면 ping으로 연결 상태를 확인해 볼 수 있었다.
+  
+    
+  
+  
+  
