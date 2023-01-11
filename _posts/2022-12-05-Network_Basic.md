@@ -774,11 +774,11 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
     
     ※ TTL은 컴퓨터나 네트워크에서 데이터의 유효 기간을 나타내기 위한 방법이다.
     
-    :point_right:  BGP 정상 작동 요건
-      - 조건 1. BGP 동기화 법칙 해결
-      - 조건 2. BGP 넥스트 홉 해결 (AS 2개 부터)
-      - 조건 3. BGP Split Horizon 법칙 해결 (라우터 3개 부터)
-  
+    :point_right:  BGP 정상 작동 요건 <BGP Split Horizon 법칙 해결 (라우터 3개 부터) >\
+      문제 : ibgp 구성에서 이웃된 라우터에 정보를 넘겨주게 되면 그 다음 라우터에서 정보를 받는 라우터는 ibgp 구성으로 받지 못하는 문제가 있다.
+      - 첫번째. Full Mesh 설정 (모든 라우터와 네이버 구성)
+      - 두번째. Route Reflector (Split Horizon 무시)
+      - 세번째. Confederation
   
   * 실습
   
@@ -796,15 +796,23 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
  
       ![image](https://user-images.githubusercontent.com/84834776/211692417-cc3ccf14-de13-48b8-ab2e-a2a2a1ced229.png)
 
-      1. 헷갈렸던 점 : loopback이 BGP에만 속해 있고 라우팅 프로토콜에서는 속하지 않았을 경우, 이웃 주소끼리 정적으로 loopback 주소를 지정해주어야 한다.
-      2. 알고있지만 기억해야 할 것 : 다른 BGP 영역 테이블을 받아오기 위해서는 EBGP 구간 라우터에 정적으로 주소를 지정해 주어야 한다.
+      :question: 헷갈렸던 점 : loopback이 BGP에만 속해 있고 라우팅 프로토콜에서는 속하지 않았을 경우, 이웃 주소끼리 정적으로 loopback 주소를 지정해주어야 한다.    
+      <br/>
+      :exclamation: 알고있지만 기억해야 할 것 : 다른 BGP 영역 테이블을 받아오기 위해서는 EBGP 구간 라우터에 정적으로 주소를 지정해 주어야 한다.
   
-    - BGP 동기화 
-    
+    - BGP Split Horizon 법칙 해결 -> Full Mesh 설정 (모든 라우터와 네이버 구성)
+        
+      ![image](https://user-images.githubusercontent.com/84834776/211705559-454342e1-afa3-45d8-97a1-58a117283d04.png)
 
+      :pushpin: 모든 라우터와 네이버를 구성하여 ibgp로 네트워크 정보를 전달할 수 있는 방법이다. 
 
-
-
-
+    - BGP Split Horizon 법칙 해결 -> Route Reflector (Split Horizon 무시)
+  
+      ![image](https://user-images.githubusercontent.com/84834776/211706843-24bd9299-0fcd-41bc-bd4c-b37fabb03dcd.png)
+  
+      :pushpin: 이웃된 라우터를 무시하고 다음 라우터에 네트워크 정보를 전달시킬 수 있는 방법이다.
+  
+    - BGP Split Horizon 법칙 해결 -> Confederation
+  
 
 
