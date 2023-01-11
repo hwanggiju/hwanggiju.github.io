@@ -796,9 +796,9 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
  
       ![image](https://user-images.githubusercontent.com/84834776/211692417-cc3ccf14-de13-48b8-ab2e-a2a2a1ced229.png)
 
-      :question: 헷갈렸던 점 : loopback이 BGP에만 속해 있고 라우팅 프로토콜에서는 속하지 않았을 경우, 이웃 주소끼리 정적으로 loopback 주소를 지정해주어야 한다.    
+      :white_check_mark: 헷갈렸던 점 : loopback이 BGP에만 속해 있고 라우팅 프로토콜에서는 속하지 않았을 경우, 이웃 주소끼리 정적으로 loopback 주소를 지정해주어야 한다.    
       <br/>
-      :exclamation: 알고있지만 기억해야 할 것 : 다른 BGP 영역 테이블을 받아오기 위해서는 EBGP 구간 라우터에 정적으로 주소를 지정해 주어야 한다.
+      :white_check_mark: 알고있지만 기억해야 할 것 : 다른 BGP 영역 테이블을 받아오기 위해서는 EBGP 구간 라우터에 정적으로 주소를 지정해 주어야 한다.
   
     - BGP Split Horizon 법칙 해결 -> Full Mesh 설정 (모든 라우터와 네이버 구성)
         
