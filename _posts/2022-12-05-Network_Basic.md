@@ -774,8 +774,9 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
     
     ※ TTL은 컴퓨터나 네트워크에서 데이터의 유효 기간을 나타내기 위한 방법이다.
     
-    :point_right:  BGP 정상 작동 요건 <BGP Split Horizon 법칙 해결 (라우터 3개 부터) >\
-      문제 : ibgp 구성에서 이웃된 라우터에 정보를 넘겨주게 되면 그 다음 라우터에서 정보를 받는 라우터는 ibgp 구성으로 받지 못하는 문제가 있다.
+    :point_right: BGP 정상 작동 요건 <BGP Split Horizon 법칙 해결 (라우터 3개 부터)>
+        <br/>
+      - 문제 : ibgp 구성에서 이웃된 라우터에 정보를 넘겨주게 되면 그 다음 라우터에서 정보를 받는 라우터는 ibgp 구성으로 받지 못하는 문제가 있다.
       - 첫번째. Full Mesh 설정 (모든 라우터와 네이버 구성)
       - 두번째. Route Reflector (Split Horizon 무시)
       - 세번째. Confederation
