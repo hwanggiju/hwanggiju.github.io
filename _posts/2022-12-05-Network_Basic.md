@@ -775,11 +775,17 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
     ※ TTL은 컴퓨터나 네트워크에서 데이터의 유효 기간을 나타내기 위한 방법이다.
     
     :point_right: BGP 정상 작동 요건 <BGP Split Horizon 법칙 해결 (라우터 3개 부터)>
+      > 문제점 : ibgp 구성에서 이웃된 라우터에 정보를 넘겨주게 되면 그 다음 라우터에서 정보를 주는 라우터는 ibgp로 넘기지 않는 문제가 있다.
         <br/>
-      - 문제 : ibgp 구성에서 이웃된 라우터에 정보를 넘겨주게 되면 그 다음 라우터에서 정보를 주는 라우터는 ibgp로 넘기지 않는 문제가 있다.
+  
       - 첫번째. Full Mesh 설정 (모든 라우터와 네이버 구성)
       - 두번째. Route Reflector (Split Horizon 무시)
       - 세번째. Confederation
+  
+    :point_right: BGP 넥스트 홉 해결 (AS 2 개 부터)
+        <br/>
+      - DMZ를 IGP에 포함 - > 물리적으로 넥스트 홉 직접 지정하여 해결하는 방법.
+      - next-hop-self 옵션 사용 - > 이웃 라우터를 알아서 자동으로 지정하여 해결하는 방법.
   
   * 실습
   
@@ -829,7 +835,12 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
       - :heavy_check_mark: 해결3> ibgp 구성에는 BGP Split Horizon 문제가 발생하기 때문에, 각각 full-mesh, router reflector, confederation 방식을 적용하여 해경하였다.
       - :heavy_check_mark: 해결4> 각 라우터마다 bgp 테이블을 확인하여 모든 루프백 주소가 잘 들어왔는지 확인해보고, 잘 들어와있다면 ping으로 연결 상태를 확인해 볼 수 있었다.
   
-    
+    - BGP 넥스트 홉 해결 -> next-hop-self 옵션 사용
+  
+      ![image](https://user-images.githubusercontent.com/84834776/211956832-17d984d3-fc1b-41c7-afe3-0673861e510b.png)
+      
+      :heavy_check_mark: 라우팅 프로토콜로 직접 설정하지 않아도, bgp의 next-hop-self 옵션을 통해 AS 번호가 다른 bgp에게 pc 네트워크 정보를 넘겨줄 수 있다. 
+      
   
   
   
