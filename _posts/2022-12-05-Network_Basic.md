@@ -839,7 +839,7 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
   
       ![image](https://user-images.githubusercontent.com/84834776/211956832-17d984d3-fc1b-41c7-afe3-0673861e510b.png)
       
-      :heavy_check_mark: 라우팅 프로토콜로 직접 설정하지 않아도, bgp의 next-hop-self 옵션을 통해 AS 번호가 다른 bgp에게 pc 네트워크 정보를 넘겨줄 수 있다. 
+      :heavy_check_mark: 현재까지는 DMZ를 IGP에 포함하여 bgp 넥스트 홉을 해결하였지만, next-hop-self 옵션 사용은 라우팅 프로토콜로 직접 설정하지 않아도, bgp의 next-hop-self 옵션을 통해 AS 번호가 다른 bgp에게 pc 네트워크 정보를 넘겨줄 수 있다. 
       
   
   
