@@ -786,6 +786,15 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
         <br/>
       - DMZ를 IGP에 포함 - > 물리적으로 넥스트 홉 직접 지정하여 해결하는 방법.
       - next-hop-self 옵션 사용 - > 이웃 라우터를 알아서 자동으로 지정하여 해결하는 방법.
+    
+    :point_right: BGP 동기화 법칙
+        <br/>
+      - No sync (기본값)
+      - BGP를 IGP에게 재분배 (AS 경계 라우터에서 재분배)
+      - Confederation
+    
+    ※ 동기화 법칙 (Sync) : iBGP로 수신한 네트워크를 'IGP'도 알고 있어야 라우팅 테이블에 저장 및 다른 BGP Peer에게 전달할 수 있다.
+  
   
   * 실습
   
@@ -799,11 +808,11 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
   
       ![image](https://user-images.githubusercontent.com/84834776/211444037-ac9ebd05-ef10-4f90-a9ff-e13d3810c1f9.png)
        
-    - loopback 라우팅 프로토콜에 속해있지 않은 경우 
+    - loopback이 IGP에 속해있지 않은 경우 
  
       ![image](https://user-images.githubusercontent.com/84834776/211692417-cc3ccf14-de13-48b8-ab2e-a2a2a1ced229.png)
 
-      :heavy_check_mark: 헷갈렸던 점 : loopback이 BGP에만 속해 있고 라우팅 프로토콜에서는 속하지 않았을 경우, 이웃 주소끼리 정적으로 loopback 주소를 지정해주어야 한다.    
+      :heavy_check_mark: 헷갈렸던 점 : loopback이 BGP에만 속해 있고 IGP에서는 속하지 않았을 경우, 이웃 주소끼리 정적으로 loopback 주소를 지정해주어야 한다.    
       <br/>
       :heavy_check_mark: 알고있지만 기억해야 할 것 : 다른 BGP 영역 테이블을 받아오기 위해서는 EBGP 구간 라우터에 정적으로 주소를 지정해 주어야 한다.
   
@@ -829,18 +838,28 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
   
       ![image](https://user-images.githubusercontent.com/84834776/211730672-d31e864c-620b-4b98-8ce3-90b8e9aee5ed.png)
       
-      - :bulb: 문제> 각 라우팅 프로토콜마다 다른 BGP Split Horizon 법칙 해결방법을 적용하고, 라우터 loopback 간 BGP 테이블을 구성한다.
-      - :heavy_check_mark: 해결1> 각 라우터에 루프백 주소와 인터페이스 주소를 넣어주고, 해당하는 라우팅 프로토콜을 적용시켜 주었다.
+      - :bulb: 조건> 각 라우팅 프로토콜마다 다른 BGP Split Horizon 법칙 해결방법을 적용하고, 라우터 loopback 간 BGP 테이블을 구성한다.
+      - :heavy_check_mark: 해결1> 각 라우터에 루프백 주소와 인터페이스 주소를 넣어주고, 해당하는 IGP를 적용시켜 주었다.
       - :heavy_check_mark: 해결2> 그 후 루프백 주소를 통해 ibgp 구성의 neighbor를 설정해주고, ebgp 구성에는 물리적으로 설정하였다.
       - :heavy_check_mark: 해결3> ibgp 구성에는 BGP Split Horizon 문제가 발생하기 때문에, 각각 full-mesh, router reflector, confederation 방식을 적용하여 해경하였다.
       - :heavy_check_mark: 해결4> 각 라우터마다 bgp 테이블을 확인하여 모든 루프백 주소가 잘 들어왔는지 확인해보고, 잘 들어와있다면 ping으로 연결 상태를 확인해 볼 수 있었다.
   
     - BGP 넥스트 홉 해결 -> next-hop-self 옵션 사용
   
-      ![image](https://user-images.githubusercontent.com/84834776/211956832-17d984d3-fc1b-41c7-afe3-0673861e510b.png)
+      ![image](https://user-images.githubusercontent.com/84834776/211977050-566f67fc-29e9-4720-83ef-d953f9eacbef.png)
       
-      :heavy_check_mark: 현재까지는 DMZ를 IGP에 포함하여 bgp 넥스트 홉을 해결하였지만, next-hop-self 옵션 사용은 라우팅 프로토콜로 직접 설정하지 않아도, bgp의 next-hop-self 옵션을 통해 AS 번호가 다른 bgp에게 pc 네트워크 정보를 넘겨줄 수 있다. 
+      :heavy_check_mark: 현재까지는 DMZ를 IGP에 포함하여 bgp 넥스트 홉을 해결하였지만, next-hop-self 옵션 사용은 IGP로 직접 설정하지 않아도, bgp의 next-hop-self 옵션을 통해 AS 번호가 다른 bgp에게 pc 네트워크 정보를 넘겨줄 수 있다. 
+  
+    - BGP 동기화 / 넥스트 홉 문제 실습
+  
+      ![image](https://user-images.githubusercontent.com/84834776/211977703-2409a1a6-7872-4860-af28-d16845b40435.png)
       
+      - :bulb: 조건> bgp 넥스트 홈 문제 해결은 next-hop 옵션을 사용하여 해결하고 동기화 법칙은 기본값으로 설정한다. R3와 R4에서는 bgp가 구성되지 않기 때문에 블랙홀 현상을 방지할 수 있게하고, 각 bgp pc 끼리 통신이 되도록 한다.
+      - :heavy_check_mark: 해결1> 각 라우터에 루프백 주소와 인터페이스 주소를 넣어주고, 해당하는 IGP를 적용시켜 주었다. (주의! IGP 구성할 때, bgp로 넘어가는 인터페이스 주소는 IGP로 지정하지 않을 것!!!)
+      - :heavy_check_mark: 해결2> bpg 구성끼리 연결시켜주는데, 사이에 bgp가 없는 라우터가 있기 때문에, R3, R4의 라우팅 테이블 정보를 구성해주어야한다. (주의! bgp 구성할 때, 하나의 라우터가 넘어갈 때마다 TTL=1이 소모되므로 여기서는 최소 TTL=3으로 설정해준다.)
+      - :heavy_check_mark: 해결3> next-hop-self 옵션을 사용해 물리적으로 연결된 라우터 정보는 받아오지만, 그렇지 않은 라우터에 대해서는 정적으로 설정해준다. (R2, R5에서 설정)
+      - :heavy_check_mark: 해결4> 또한, bgp가 구성되지 않은 라우터에는 각 pc 네트워크 주소에 정적으로 지정해주어야한다. 
+      - :heavy_check_mark: 해결5> 마지막으로 show ip bgp와 show ip route 명령어로 bgp 테이블과 라우팅 테이블을 확인해주고, 이상이 없다면 ping으로 통신 확인해본다.
   
   
   
