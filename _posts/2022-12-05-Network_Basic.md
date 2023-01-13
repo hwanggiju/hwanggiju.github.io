@@ -895,17 +895,19 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
   
       ![image](https://user-images.githubusercontent.com/84834776/212224544-0affa7fe-534d-4ff7-8e4f-5ce508d5af5a.png)    
       
-      ✔️ igp, egp, incomplete 통해 배운 방식을 통해 우선순위를 결정해 경로를 조정할 수 있는 방법이다.
+      ✔️ igp, egp, incomplete 통해 배운 방식을 통해 우선순위를 결정해 경로를 조정할 수 있는 방법이다.      
       ✔️ origin 우선순위 : i(기본값) > e > ?(incomplete) 
   
     - 입력정책 / AS-Path
   
       ![image](https://user-images.githubusercontent.com/84834776/212225443-94a98bb1-85b6-42cf-8752-fa141540f032.png)
 
-      ✔️ bgp로 넘어갈 때, 기본적으로 as-path가 2로 넘어가게 된다.
+      ✔️ bgp로 넘어갈 때, 기본적으로 as-path가 2로 넘어가게 된다.      
       ✔️ 만약 모든 경로를 R2로 지정해주기 위해서, R4에 as-path를 더 많이 지정하여 경로를 조정할 수 있는 방법이다.
   
+    - 출력정책 / Weight
   
+    - 출력정책 / Local Preference
   
   
   
