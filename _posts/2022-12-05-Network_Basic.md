@@ -874,11 +874,11 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
     
     > AS 값의 나가는 경로 조정 (출력정책)  
       - 속성 : Weight, Local Preference 
-      - 특징 : 큰 값이 우선된다.
+      - 특징 : 높은 값이 우선된다.
   
     > AS 값의 들어오는 경로 조정 (입력정책)
       - 속성 : AS-Path, Origin, MED(기본값 0)
-      - 특징 : 작은 값이 우선된다.
+      - 특징 : 낮은 값이 우선된다.
 
   * 실습
   
@@ -886,7 +886,7 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
       
       ![image](https://user-images.githubusercontent.com/84834776/212222562-8c7fb276-fcc2-4556-8b17-86b3958c0b8e.png)
   
-      ✔️ metric 값을 지정하고, 작은 값을 우선순위로 경로를 조정할 수 있는 방법이다.
+      ✔️ metric 값을 지정하고, 작은 값을 우선순위로 입력 경로를 조정할 수 있는 방법이다.
   
       ※ clear ip bgp * soft : bgp 정책을 지웠다가 재연결하는 명령어    
       ※ ^$ : 현재 AS 번호를 의미한다.
@@ -895,7 +895,7 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
   
       ![image](https://user-images.githubusercontent.com/84834776/212224544-0affa7fe-534d-4ff7-8e4f-5ce508d5af5a.png)    
       
-      ✔️ igp, egp, incomplete 통해 배운 방식을 통해 우선순위를 결정해 경로를 조정할 수 있는 방법이다.      
+      ✔️ igp, egp, incomplete 통해 배운 방식을 통해 우선순위를 결정해 입력 경로를 조정할 수 있는 방법이다.      
       ✔️ origin 우선순위 : i(기본값) > e > ?(incomplete) 
   
     - 입력정책 / AS-Path
@@ -903,14 +903,26 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
       ![image](https://user-images.githubusercontent.com/84834776/212225443-94a98bb1-85b6-42cf-8752-fa141540f032.png)
 
       ✔️ bgp로 넘어갈 때, 기본적으로 as-path가 2로 넘어가게 된다.      
-      ✔️ 만약 모든 경로를 R2로 지정해주기 위해서, R4에 as-path를 더 많이 지정하여 경로를 조정할 수 있는 방법이다.
+      ✔️ 만약 모든 경로를 R2로 지정해주기 위해서, R4에 as-path를 더 많이 지정하여 입력 경로를 조정할 수 있는 방법이다.
   
     - 출력정책 / Weight
+      
+      ![image](https://user-images.githubusercontent.com/84834776/212237516-beb69aa3-d209-4cb7-91b1-bbc81ac865cf.png)
+  
+      ✔️ weight의 기본값은 0 이며, weight 값은 이웃 라우터에 전파되지 않는다.
   
     - 출력정책 / Local Preference
   
+      ![image](https://user-images.githubusercontent.com/84834776/212235532-cdef65f5-97fe-4eda-8485-745907f02f3d.png)
+
+      ✔️ Local Preference은 igp로 배운 경우만 기본값 100을 설정하고, 나머지는 값이 없다. 그래서 한쪽 라우터에 Local Preference를 상대적으로 높거나 낮게 지정하여 출력 경로를 조정할 수 있다.
   
+    - BGP 정책 마무리 실습
   
-  
+      ![image](https://user-images.githubusercontent.com/84834776/212253313-46a78cb9-f134-44c7-b1e5-54e844705c28.png)
+
+  		- 💥 해결하는 데에 어려웠던 부분 : BGP Attribute를 통한 경로 조정 부분에서 R2와 R4를 모두 수정해서 바꾸려고 했으나, 실수가 너무 잦았고, as_path와 MED 설정을 하는 것에 보안해야할 점이 너무 많아 비효율적으로 문제를 풀려고 하였다.
+      - ✔️ 해결방법 1 : R2에서만 as_path와 MED 값을 설정해서 문제에서 제시한 조건을 맞춰준다. prefix-list로 해당되는 주소를 route-map으로 필터해준 후, BGP로 연결시켜 준다.
+      - ❗ 주의해야 할 점 : prefix-list를 설정한 후, route-map으로 필터링했을 때 prefix-list로 지정한 주소를 제외한 나머지 주소는 모두 deny해주게 된다. 그렇기 때문에, route-map을 추가로 넣어주고 아무런 매칭과 set을 하지 않는다면, prefix-list에서 지정한 주소를 제외한 나머지 주소를 허용해줄 수 있다. ( [Filtering](#filtering) 내용 참고 )
   
   
