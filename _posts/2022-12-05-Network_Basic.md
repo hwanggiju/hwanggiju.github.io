@@ -865,11 +865,30 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
   
       ![image](https://user-images.githubusercontent.com/84834776/212001172-646aa850-4802-42d8-8d63-29d506b745b9.png)
 
-      - :bulb: 조건> 
-      - :heavy_check_mark: 해결1> 
-      - :heavy_check_mark: 해결2> 
-      - :heavy_check_mark: 해결3> 
-      - :heavy_check_mark: 해결4> 
+      :heavy_check_mark: 몰랐던 점 : OSPF 간 네트워크를 주고 받을 때, 서브넷 마스크를 /32로 넘겨주고 받게된다. 서브넷 마스크는 전부 /24로 설정해주었기 때문에 이 부분을 /24로 바꿔줘야 정상적인 정보 교환이 가능하다. 서브넷 마스크를 바꿔주기 위해서 루프백 주소에 point-to-point로 지정시켜준다. 
+  
+### BGP 정책
+  
+  * 이론
+    
+    1. AS 값의 나가는 경로 조정 (출력정책) : Weight, Local Preference 속성을 사용하고, 큰 값이 우선된다
+    2. AS 값의 들어오는 경로 조정 (입력정책) : AS-Path, Origin, MED(기본값 0) 속성을 사용하고, 작은 값이 우선된다.
+
+  # 실습
+  
+    - 입력정책 / MED(기본값 0)
+      
+      ![image](https://user-images.githubusercontent.com/84834776/212222562-8c7fb276-fcc2-4556-8b17-86b3958c0b8e.png)
+  
+      ※ clear ip bgp * soft : bgp 정책을 지웠다가 재연결하는 명령어
+      ※ ^$ : 현재 AS 번호를 의미한다.
+  
+  
+  
+  
+  
+  
+  
   
   
   
