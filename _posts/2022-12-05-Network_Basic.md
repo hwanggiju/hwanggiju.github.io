@@ -996,7 +996,9 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
     - Community를 이용한 정책 구성
 
       ![image](https://user-images.githubusercontent.com/84834776/212604971-ef54382b-053a-4aad-b91d-8c42cf895e97.png)
-
+      
+      - ✔️ Community를 이용한 정책 구성할 때, 각 라우터마다 ***ip bgp new-format*** 명령어를 입력하여 community 정책 구성으로 설정해준다.
+      - ✔️ 또한, 모든 라우터에 ***neighbor (neighbor ip 주소) send-community***를 적용시켜주면, 해당하는 community 정책에 따라 이웃 라우터에게 라우팅 테이블 정보를 넘겨준다.
         
   
   
