@@ -947,9 +947,7 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
   
       - ✔️ 새로웠던 점 : 각 IGP마다 default 주소를 넘겨주는 방식을 새롭게 알게되었다.             
   
-      <br/>
-  
-      > rip
+        > rip
   
         ```
           - 유형 1
@@ -963,7 +961,7 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
           defaulte-information originate
         ```
   
-      > eigrp
+        > eigrp
 
         ```
           - 유형 1
@@ -980,7 +978,7 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
           ip summary-address eigrp 100 0.0.0.0 0.0.0.0
         ```
   
-      > ospf
+        > ospf
   
         ```
           - 유형 1
