@@ -937,13 +937,14 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
 
   		- 💥 해결하는 데에 어려웠던 부분 : BGP Attribute를 통한 경로 조정 부분에서 R2와 R4를 모두 수정해서 바꾸려고 했으나, 실수가 너무 잦았고, as_path와 MED 설정을 하는 것에 보안해야할 점이 너무 많아 비효율적으로 문제를 풀려고 하였다.   
   
-      - ✔️ 해결방법 1 : R2에서만 as_path와 MED 값을 설정해서 문제에서 제시한 조건을 맞춰준다. prefix-list로 해당되는 주소를 route-map으로 필터해준 후, BGP로 연결시켜 준다.    
+      - ✔️ 해결방법 1 : R2에서만 as_path와 MED 값을 설정해서 문제에서 제시한 조건을 맞춰준다. prefix-list로 해당되는 주소를 route-map으로 필터해준 후, BGP로 연결시켜 준다.       
   
-      - ❗ 주의해야 할 점 : prefix-list를 설정한 후, route-map으로 필터링했을 때 prefix-list로 지정한 주소를 제외한 나머지 주소는 모두 deny해주게 된다. 그렇기 때문에, route-map을 추가로 넣어주고 아무런 매칭과 set을 하지 않는다면, prefix-list에서 지정한 주소를 제외한 나머지 주소를 허용해줄 수 있다. ( [Filtering](#filtering) 내용 참고 )
+      - ❗ 주의해야 할 점 : prefix-list를 설정한 후, route-map으로 필터링했을 때 prefix-list로 지정한 주소를 제외한 나머지 주소는 모두 deny해주게 된다. 그렇기 때문에, route-map을 추가로 넣어주고 아무런 매칭과 set을 하지 않는다면, prefix-list에서 지정한 주소를 제외한 나머지 주소를 허용해줄 수 있다. ( [Filtering](#filtering) 내용 참고 )       
   
-      ![image](https://user-images.githubusercontent.com/84834776/212586240-215de129-54b9-4ae2-b9e8-f4dbdc2a2260.png)
+      ![image](https://user-images.githubusercontent.com/84834776/212586240-215de129-54b9-4ae2-b9e8-f4dbdc2a2260.png)    
 
       - ✔️ 몰랐던 부분 : IGP에 포함되고 eBGP로 구성되는 라우터에 같은 IGP 라우터 루프백 주소를 BGP로도 네트워크 구성을 해주어야 eBGP로 정보를 넘겨줄 수 있다.
+  
       - ✔️ 새로웠던 점 : 각 IGP마다 default 주소를 넘겨주는 방식을 새롭게 알게되었다.
   
       <br/>
