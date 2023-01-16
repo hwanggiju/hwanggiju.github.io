@@ -885,6 +885,14 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
     > AS 값의 들어오는 경로 조정 (입력정책)
       - 속성 : AS-Path, Origin, MED(기본값 0)
       - 특징 : 낮은 값이 우선된다.
+  
+    👉 Community를 이용한 정책구성
+ 
+      - internet : 제약하지 않도록 할 때 저장한다. (default 값)
+      - local-AS : 자신의 AS에서만 광고한다. (잘 사용하지 않는다고 한다...)
+      - no-advertise : 네이버에 광고 후, 다른 BGP 네이버에게 광고하지 않는다.
+      - no-expert : 네이버에게 광고 후, 다른 AS로 광고하지 않는다.
+      - <예> as 번호 : 임의번호 -> 2:18
 
   * 실습
   
@@ -937,6 +945,7 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
 
       - ✔️ 몰랐던 부분 : IGP에 포함되고 eBGP로 구성되는 라우터에 같은 IGP 라우터 루프백 주소를 BGP로도 네트워크 구성을 해주어야 eBGP로 정보를 넘겨줄 수 있다.
       - ✔️ 새로웠던 점 : 각 IGP마다 default 주소를 넘겨주는 방식을 새롭게 알게되었다.
+  
       <br/>
   
       > rip
@@ -983,10 +992,12 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
         router ospf *
         defaulte-information originate always
         ```
-  
-  
-  
-  
+
+    - Community를 이용한 정책 구성
+
+      ![image](https://user-images.githubusercontent.com/84834776/212604971-ef54382b-053a-4aad-b91d-8c42cf895e97.png)
+
+        
   
   
   
