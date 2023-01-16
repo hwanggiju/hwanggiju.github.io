@@ -950,23 +950,23 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
         > rip
           
           - 유형 1       
-          ```bash
+          ~~~
           ip route 0.0.0.0 0.0.0.0 null 0
           !
           router rip
           redistribute static metric 1
-          ```
+          ~~~
     
           - 유형 2     
-          ```bash
+          ~~~
           router rip
           defaulte-information originate
-          ```
+          ~~~
   
         > eigrp
   
           - 유형 1        
-          ```bash
+          ~~~
           ip route 0.0.0.0 0.0.0.0 null 0
           !
           router eigrp *
@@ -974,29 +974,29 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
           또는
           router eigrp *
           network 0.0.0.0
-          ```
+          ~~~
     
           - 유형 2       
-          ```bash
+          ~~~
           interface e0/0
           ip summary-address eigrp 100 0.0.0.0 0.0.0.0
-          ```
+          ~~~
   
         > ospf
               
           - 유형 1     
-          ```bash
+          ~~~
           ip route 0.0.0.0 0.0.0.0 null 0
           !
           router ospf *
           defaulte-information originate
-          ``` 
+          ~~~ 
   
           - 유형 2        
-          ```bash
+          ~~~
           router ospf *
           defaulte-information originate always
-          ```
+          ~~~
   
     - Community를 이용한 정책 구성
 
