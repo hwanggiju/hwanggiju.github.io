@@ -952,6 +952,7 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
       > rip
   
         ```
+  
         - 유형 1
         ip route 0.0.0.0 0.0.0.0 null 0
         !
@@ -961,11 +962,13 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
         - 유형 2
         router rip
         defaulte-information originate
+  
         ```
   
       > eigrp
   
         ```
+  
         - 유형 1
         ip route 0.0.0.0 0.0.0.0 null 0
         !
@@ -978,11 +981,13 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
         - 유형 2
         interface e0/0
         ip summary-address eigrp 100 0.0.0.0 0.0.0.0
+  
         ```
   
       > ospf
   
         ```
+  
         - 유형 1
         ip route 0.0.0.0 0.0.0.0 null 0
         !
@@ -992,6 +997,7 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
         - 유형 2
         router ospf *
         defaulte-information originate always
+  
         ```
 
     - Community를 이용한 정책 구성
