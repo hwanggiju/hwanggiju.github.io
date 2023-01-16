@@ -949,8 +949,7 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
   
         > rip
           
-          - 유형 1
-  
+          - 유형 1       
           ```bash
           ip route 0.0.0.0 0.0.0.0 null 0
           !
@@ -958,7 +957,7 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
           redistribute static metric 1
           ```
     
-          - 유형 2
+          - 유형 2     
           ```bash
           router rip
           defaulte-information originate
@@ -966,7 +965,7 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
   
         > eigrp
   
-          - 유형 1
+          - 유형 1        
           ```bash
           ip route 0.0.0.0 0.0.0.0 null 0
           !
@@ -977,15 +976,15 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
           network 0.0.0.0
           ```
     
-          - 유형 2
+          - 유형 2       
           ```bash
           interface e0/0
           ip summary-address eigrp 100 0.0.0.0 0.0.0.0
           ```
   
         > ospf
-          
-          - 유형 1
+              
+          - 유형 1     
           ```bash
           ip route 0.0.0.0 0.0.0.0 null 0
           !
@@ -993,7 +992,7 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
           defaulte-information originate
           ``` 
   
-          - 유형 2
+          - 유형 2        
           ```bash
           router ospf *
           defaulte-information originate always
