@@ -950,60 +950,49 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
       <br/>
   
       > rip
-        {% raw %}
   
         ```
-        - 유형 1
-        ip route 0.0.0.0 0.0.0.0 null 0
-        !
-        router rip
-        redistribute static metric 1
-  
-        - 유형 2
-        router rip
-        defaulte-information originate
+          - 유형 1
+          ip route 0.0.0.0 0.0.0.0 null 0
+          !
+          router rip
+          redistribute static metric 1
+
+          - 유형 2
+          router rip
+          defaulte-information originate
         ```
-  
-        {% endraw %}
   
       > eigrp
-  
-        {% row %}
-  
+
         ```
-        - 유형 1
-        ip route 0.0.0.0 0.0.0.0 null 0
-        !
-        router eigrp *
-        redistribute static metric 1 1 1 1 1
-        또는
-        router eigrp *
-        network 0.0.0.0
-  
-        - 유형 2
-        interface e0/0
-        ip summary-address eigrp 100 0.0.0.0 0.0.0.0
+          - 유형 1
+          ip route 0.0.0.0 0.0.0.0 null 0
+          !
+          router eigrp *
+          redistribute static metric 1 1 1 1 1
+          또는
+          router eigrp *
+          network 0.0.0.0
+
+          - 유형 2
+          interface e0/0
+          ip summary-address eigrp 100 0.0.0.0 0.0.0.0
         ```
-  
-        {% endrow %]
   
       > ospf
-        
-        {% row %}
   
         ```
-        - 유형 1
-        ip route 0.0.0.0 0.0.0.0 null 0
-        !
-        router ospf *
-        defaulte-information originate
-  
-        - 유형 2
-        router ospf *
-        defaulte-information originate always
+          - 유형 1
+          ip route 0.0.0.0 0.0.0.0 null 0
+          !
+          router ospf *
+          defaulte-information originate
+
+          - 유형 2
+          router ospf *
+          defaulte-information originate always
         ```
-        
-        {% endrow %}
   
     - Community를 이용한 정책 구성
 
