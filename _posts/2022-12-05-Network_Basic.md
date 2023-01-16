@@ -950,7 +950,7 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
       <br/>
   
       > rip
-        {% row %}
+        {% raw %}
   
         ```
         - 유형 1
@@ -964,7 +964,7 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
         defaulte-information originate
         ```
   
-        {% endrow %}
+        {% endraw %}
   
       > eigrp
   
