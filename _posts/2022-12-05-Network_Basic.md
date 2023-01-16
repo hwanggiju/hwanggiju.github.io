@@ -950,6 +950,7 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
       <br/>
   
       > rip
+        {% row %}
   
         ```
         - 유형 1
@@ -963,7 +964,11 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
         defaulte-information originate
         ```
   
+        {% endrow %}
+  
       > eigrp
+  
+        {% row %}
   
         ```
         - 유형 1
@@ -980,7 +985,11 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
         ip summary-address eigrp 100 0.0.0.0 0.0.0.0
         ```
   
+        {% endrow %]
+  
       > ospf
+        
+        {% row %}
   
         ```
         - 유형 1
@@ -993,7 +1002,9 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
         router ospf *
         defaulte-information originate always
         ```
-
+        
+        {% endrow %}
+  
     - Community를 이용한 정책 구성
 
       ![image](https://user-images.githubusercontent.com/84834776/212604971-ef54382b-053a-4aad-b91d-8c42cf895e97.png)
