@@ -829,6 +829,12 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
   
       :pushpin: 이웃된 라우터를 무시하고 다음 라우터에 네트워크 정보를 전달시킬 수 있는 방법이다.
   
+      ![image](https://user-images.githubusercontent.com/84834776/212576360-fca18334-38cb-47eb-8eb2-734fe667bb97.png)
+      
+      📌 eBGP neighbor에게서 수신한 정보는 모든 client와 non-client 모두에게 전송된다.
+      📌 또한, non-client에게서 수신한 정보는 모든 client에게 전송된다. 하지만 다른 non-client에게는 전송하지 못한다.
+      📌 client에게서 수신한 정보는 모든 client와 non-client에게 전송한다. 
+  
     - BGP Split Horizon 법칙 해결 -> Confederation
       
       ![image](https://user-images.githubusercontent.com/84834776/211717210-5e0cf369-8edd-4e1e-bcdc-e9d1a29b2ec9.png)
@@ -926,5 +932,63 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
       - ✔️ 해결방법 1 : R2에서만 as_path와 MED 값을 설정해서 문제에서 제시한 조건을 맞춰준다. prefix-list로 해당되는 주소를 route-map으로 필터해준 후, BGP로 연결시켜 준다.    
   
       - ❗ 주의해야 할 점 : prefix-list를 설정한 후, route-map으로 필터링했을 때 prefix-list로 지정한 주소를 제외한 나머지 주소는 모두 deny해주게 된다. 그렇기 때문에, route-map을 추가로 넣어주고 아무런 매칭과 set을 하지 않는다면, prefix-list에서 지정한 주소를 제외한 나머지 주소를 허용해줄 수 있다. ( [Filtering](#filtering) 내용 참고 )
+  
+      ![image](https://user-images.githubusercontent.com/84834776/212586240-215de129-54b9-4ae2-b9e8-f4dbdc2a2260.png)
+
+      - ✔️ 몰랐던 부분 : IGP에 포함되고 eBGP로 구성되는 라우터에 같은 IGP 라우터 루프백 주소를 BGP로도 네트워크 구성을 해주어야 eBGP로 정보를 넘겨줄 수 있다.
+      - ✔️ 새로웠던 점 : 각 IGP마다 default 주소를 넘겨주는 방식을 새롭게 알게되었다.
+      <br/>
+  
+      > rip
+  
+        ```
+        - 유형 1
+        ip route 0.0.0.0 0.0.0.0 null 0
+        !
+        router rip
+        redistribute static metric 1
+  
+        - 유형 2
+        router rip
+        defaulte-information originate
+        ```
+  
+      > eigrp
+  
+        ```
+        - 유형 1
+        ip route 0.0.0.0 0.0.0.0 null 0
+        !
+        router eigrp *
+        redistribute static metric 1 1 1 1 1
+        또는
+        router eigrp *
+        network 0.0.0.0
+  
+        - 유형 2
+        interface e0/0
+        ip summary-address eigrp 100 0.0.0.0 0.0.0.0
+        ```
+  
+      > ospf
+  
+        ```
+        - 유형 1
+        ip route 0.0.0.0 0.0.0.0 null 0
+        !
+        router ospf *
+        defaulte-information originate
+  
+        - 유형 2
+        router ospf *
+        defaulte-information originate always
+        ```
+  
+  
+  
+  
+  
+  
+  
   
   
