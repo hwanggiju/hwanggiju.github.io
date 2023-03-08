@@ -45,9 +45,25 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
 
   ![image](https://user-images.githubusercontent.com/84834776/223597137-1ae19f9a-e7a3-4eea-b300-973538a6321b.png)
 
+### ASA ACL
 
+  - 연습 1 : outside 에서 dmz 에 위치한 다음 서비스들에 대해 접근을 허용하시오
 
+    - 조건
 
+    ![image](https://user-images.githubusercontent.com/84834776/223620883-344ed63e-d191-4e52-a5ae-f303c85233aa.png)
+  
+  - 풀이
+
+    ![image](https://user-images.githubusercontent.com/84834776/223620769-e5936d1c-ed41-4f7d-9565-24850ed65cbd.png)
+
+  - 연습 2 : outside 에서 dmz 으로 전송되는 ICMP 가 차단되는 Log 메시지 확인하기
+    
+    ![image](https://user-images.githubusercontent.com/84834776/223625964-4344899d-4391-4c00-b75f-979b40db611c.png)
+    
+  - 결과
+
+    ![image](https://user-images.githubusercontent.com/84834776/223625776-8e34d04f-3f71-400a-8146-4fb1e37cb264.png)
 
 
 
