@@ -65,8 +65,35 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
 
     ![image](https://user-images.githubusercontent.com/84834776/223625776-8e34d04f-3f71-400a-8146-4fb1e37cb264.png)
 
+  - 연습 3 : outside 에서 dmz 으로 전송되는 ICMP 가 차단되는 Log 메시지 통계치 출력하기
+
+    ![image](https://user-images.githubusercontent.com/84834776/223626531-6e100a19-8d9a-4d74-a6ae-13c680db1538.png)
+
+  - 결과 
+
+    ![image](https://user-images.githubusercontent.com/84834776/223626741-1ae74809-d626-48eb-8f10-4ec7f7861c3a.png)
+
+  - 연습 4 : Object를 사용한 Access list 구성
+
+    - 조건 
+
+    ![image](https://user-images.githubusercontent.com/84834776/223632534-9b04c838-eb3a-4c09-8ee9-c8493f51a658.png)
+    
+    - 풀이
 
 
+    ![image](https://user-images.githubusercontent.com/84834776/223632456-56df94f1-496c-453c-b682-455bb22180ac.png)
 
+  - 연습 5 : Object group을 사용한 Access list 구성
 
+    - 조건 
 
+    ![image](https://user-images.githubusercontent.com/84834776/223632840-25a5d2e3-f43a-46da-8d75-94d70a7490b6.png)
+
+    - 풀이
+
+    ![image](https://user-images.githubusercontent.com/84834776/223634633-fa86eda1-a309-40d2-b045-b01ff22c41fb.png)
+
+  - 연습 6 : Object 와 Object Group 을 사용한 Access list 구성 - 시간 설정
+
+    ![image](https://user-images.githubusercontent.com/84834776/223638235-b2498ffe-a73a-41ef-b91b-b6bad0de0b8d.png)
