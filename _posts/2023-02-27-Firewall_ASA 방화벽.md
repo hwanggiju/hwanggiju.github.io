@@ -29,3 +29,28 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
 
   ![image](https://user-images.githubusercontent.com/84834776/223043804-23b09bf2-6476-4f78-8a3c-649d93a393fd.png)
 
+### ASA.Firewall.라우팅 : STATIC ROUTE
+
+  ![image](https://user-images.githubusercontent.com/84834776/223588230-2ee7f0d5-83fc-48ab-8262-0e69dc397b02.png)
+
+### ASA.Firewall.라우팅 : RIPv2
+
+  ![image](https://user-images.githubusercontent.com/84834776/223594279-e74b730b-2adf-4a26-a81c-984fdeec4410.png)
+
+### ASA.Firewall.라우팅 : EIGRP
+
+  ![image](https://user-images.githubusercontent.com/84834776/223596016-9a0fb080-a25d-4385-ad10-1523f92b9e0b.png)
+
+### ASA.Firewall.라우팅 : OSPF
+
+  ![image](https://user-images.githubusercontent.com/84834776/223597137-1ae19f9a-e7a3-4eea-b300-973538a6321b.png)
+
+
+
+
+
+
+
+
+
+
