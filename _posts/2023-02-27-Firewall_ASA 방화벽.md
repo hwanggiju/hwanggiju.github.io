@@ -112,6 +112,39 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
   
   ![image](https://user-images.githubusercontent.com/84834776/223901963-41afd773-e008-44ad-8d53-f27abe5460fd.png)
 
+### ASA.Firewall.NAT
+
+  - Section 2 : Object NAT (Auto NAT)
+
+  ![image](https://user-images.githubusercontent.com/84834776/223927653-dbf66887-8e73-49f8-bfe7-7c47be9949c3.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/223929529-a46bbe0f-c5d3-4ed2-9372-b057de51fb3b.png)
+    
+  ![image](https://user-images.githubusercontent.com/84834776/223931481-65ccbd83-d524-4ba1-ae11-e00e1037132b.png)
+  
+  ![image](https://user-images.githubusercontent.com/84834776/223937055-ae2e5e11-b544-4abd-95d9-71d300ea053c.png)
+  
+  - Section 3 : After-auto manual NAT(Manual NAT)
+
+  ![image](https://user-images.githubusercontent.com/84834776/223942377-de35aa12-2493-4f01-98fb-e9d43e5aaf3a.png)
+
+  - Section 1 : Manual NAT(Twice NAT)
+  
+  ![image](https://user-images.githubusercontent.com/84834776/223948493-9b557721-6749-4f3f-888b-13a11924703f.png)
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
