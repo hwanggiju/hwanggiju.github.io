@@ -97,3 +97,21 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
   - 연습 6 : Object 와 Object Group 을 사용한 Access list 구성 - 시간 설정
 
     ![image](https://user-images.githubusercontent.com/84834776/223638235-b2498ffe-a73a-41ef-b91b-b6bad0de0b8d.png)
+    
+### MTF
+
+  - Application Layer Control(DPI) STEP 1 : Telnet서버
+
+  ![image](https://user-images.githubusercontent.com/84834776/223889448-015bd162-0278-4f3d-b4be-0a0bcb360ea3.png)
+
+  - Application Layer Control(DPI) STEP 2 : HTTP
+  
+  ![image](https://user-images.githubusercontent.com/84834776/223893999-1a11254e-bf69-4c73-a056-93b89460813d.png)
+
+  - Application Layer Control(DPI) STEP 3 : FTP
+  
+  
+  
+  
+  
+  
