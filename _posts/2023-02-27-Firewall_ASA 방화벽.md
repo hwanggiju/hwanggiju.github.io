@@ -106,11 +106,12 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
 
   - Application Layer Control(DPI) STEP 2 : HTTP
   
-  ![image](https://user-images.githubusercontent.com/84834776/223893999-1a11254e-bf69-4c73-a056-93b89460813d.png)
+  ![image](https://user-images.githubusercontent.com/84834776/223897610-da75cfd2-147c-405a-bc31-5216f13ce4ad.png)
 
   - Application Layer Control(DPI) STEP 3 : FTP
   
-  
+  ![image](https://user-images.githubusercontent.com/84834776/223901963-41afd773-e008-44ad-8d53-f27abe5460fd.png)
+
   
   
   
