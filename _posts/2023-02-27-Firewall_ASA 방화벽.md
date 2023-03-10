@@ -132,11 +132,20 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
   
   ![image](https://user-images.githubusercontent.com/84834776/223948493-9b557721-6749-4f3f-888b-13a11924703f.png)
 
+### ASA.Firewall.이중화_Active&Standby
+
+  - Active/Standby 구성 STEP 1
+
+  ![image](https://user-images.githubusercontent.com/84834776/224210170-27391649-0b85-4193-833d-73050e72fcac.png)
+
+  - Active/Standby 구성 STEP 2
+
+  ![image](https://user-images.githubusercontent.com/84834776/224222133-f088d936-fe36-4b36-b4d0-ecd5e6cd3d97.png)
+
+### ASA.Firewall.Context
   
-  
-  
-  
-  
+  ![image](https://user-images.githubusercontent.com/84834776/224244335-d3d3a03d-0aab-486b-aaca-56214e688950.png)
+
   
   
   
