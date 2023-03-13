@@ -146,11 +146,18 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
   
   ![image](https://user-images.githubusercontent.com/84834776/224244335-d3d3a03d-0aab-486b-aaca-56214e688950.png)
 
+### ASA.Firewall.이중화_Active&Active
+
+  ![image](https://user-images.githubusercontent.com/84834776/224589189-d2fafbd6-7654-475f-bab5-6b9d671b8aaf.png)
+
+### ASA.Firewall.Transparent
   
+  ![image](https://user-images.githubusercontent.com/84834776/224619900-4acd9546-7a38-48ff-9a5d-a27ca8f2d2d3.png)
+
+  - ASA방화벽 Transparent 구성
   
-  
-  
-  
+  ![image](https://user-images.githubusercontent.com/84834776/224633215-d3f6ede7-053d-4970-9e75-4a7ab8039999.png)
+
   
   
   
