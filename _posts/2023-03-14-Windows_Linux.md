@@ -68,8 +68,14 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
 
 ### 복습
 
-  ![image](https://user-images.githubusercontent.com/84834776/225178299-d0046106-8b48-4be2-b9bf-863d4f33b6ad.png)
+  ![image](https://user-images.githubusercontent.com/84834776/225191271-328fb623-d355-4ff0-8d94-2cdad513b919.png)
   
   [Upload.txt](https://github.com/hwanggiju/hwanggiju.github.io/files/10975052/Upload.txt)
+
+### Linux 다중 scope
+
+  ![image](https://user-images.githubusercontent.com/84834776/225192587-03972ee4-3f01-4690-b46c-0dc6a9ecdaf9.png)
+
+  [Upload.txt](https://github.com/hwanggiju/hwanggiju.github.io/files/10975572/Upload.txt)
 
 
