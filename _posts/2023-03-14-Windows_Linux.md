@@ -78,6 +78,11 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
 
   [Upload.txt](https://github.com/hwanggiju/hwanggiju.github.io/files/10975870/Upload.txt)
 
+### DHCP Relay Agent 및 예약
+
+  ![image](https://user-images.githubusercontent.com/84834776/225217016-9bc738fb-a8d1-48c0-a467-afcd979c7a72.png)
+  
+  [Upload.txt](https://github.com/hwanggiju/hwanggiju.github.io/files/10976362/Upload.txt)
 
 
 
