@@ -84,5 +84,9 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
   
   [Upload.txt](https://github.com/hwanggiju/hwanggiju.github.io/files/10976362/Upload.txt)
 
+###  Linux 7 서버 구성
 
+  ![image](https://user-images.githubusercontent.com/84834776/225233719-8778a90a-011a-40bc-8e3a-6852f936d634.png)
+
+  [CenOS7_DHCP 서버.txt](https://github.com/hwanggiju/hwanggiju.github.io/files/10976935/CenOS7_DHCP.txt)
 
