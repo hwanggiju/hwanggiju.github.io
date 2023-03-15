@@ -66,5 +66,10 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
 
   ![image](https://user-images.githubusercontent.com/84834776/224926284-57b49d43-6638-4534-9a2d-70c732a3a0fc.png)
 
+### 복습
+
+  ![image](https://user-images.githubusercontent.com/84834776/225178299-d0046106-8b48-4be2-b9bf-863d4f33b6ad.png)
+  
+  [Upload.txt](https://github.com/hwanggiju/hwanggiju.github.io/files/10975052/Upload.txt)
 
 
