@@ -5,7 +5,7 @@ categories: "Education"
 tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트워크&서버 보안 운영 관리), 윈도우, 리눅스, 서버]
 ---
 
-# 방화벽
+# Windows&Linux 
 ## 일정
   - 2023.03.14 ~ 2023.03.
 
@@ -84,9 +84,63 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
   
   [Upload.txt](https://github.com/hwanggiju/hwanggiju.github.io/files/10976362/Upload.txt)
 
-###  Linux 7 서버 구성
+### Linux 7 서버 구성
 
   ![image](https://user-images.githubusercontent.com/84834776/225233719-8778a90a-011a-40bc-8e3a-6852f936d634.png)
 
   [CenOS7_DHCP 서버.txt](https://github.com/hwanggiju/hwanggiju.github.io/files/10976935/CenOS7_DHCP.txt)
 
+### Window DNS 서버
+
+  - 자신의 주소 지정
+
+  ![image](https://user-images.githubusercontent.com/84834776/225531379-bc66980c-a232-4f7b-a35a-36baceb60aa7.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/225531413-ced8e175-4852-40b8-a610-6c121d43fe3d.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/225531480-7d10f8d5-cc94-46e9-b0f7-020af9baf8a0.png)
+  
+  - 위임
+  
+  ![image](https://user-images.githubusercontent.com/84834776/225532381-a59e16a4-f1dd-4096-9498-1ef438ba2c72.png)
+  
+  - wa
+  
+  ![image](https://user-images.githubusercontent.com/84834776/225531931-a077093c-e0ec-404f-9919-b69b0bcf87bc.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/225532027-c5fd7346-075b-4613-8d01-f274dbd59eb2.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/225532094-7dcfb2f4-9914-4799-89c1-05f0c5b1ee1c.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/225532170-7235551d-33fc-41fb-8bdc-8e57caa5fd25.png)
+
+  - wb
+
+  ![image](https://user-images.githubusercontent.com/84834776/225532467-e6572017-8101-4463-9a85-9933f27bf69f.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/225532598-0a2647c2-dd58-42b3-b407-c23845f3beb9.png)
+
+ - 루트 힌트
+  
+  ![image](https://user-images.githubusercontent.com/84834776/225534999-e6ba3bb1-4aa1-44ea-9a0a-1fff14b94d39.png)
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
