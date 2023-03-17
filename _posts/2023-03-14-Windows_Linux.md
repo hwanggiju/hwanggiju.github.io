@@ -92,55 +92,95 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
 
 ### Window DNS 서버
 
-  - 자신의 주소 지정
+  - 문제
 
-  ![image](https://user-images.githubusercontent.com/84834776/225531379-bc66980c-a232-4f7b-a35a-36baceb60aa7.png)
+  ![image](https://user-images.githubusercontent.com/84834776/225792877-48b423ba-1acf-4a38-91dc-af284bbb26c6.png)
 
-  ![image](https://user-images.githubusercontent.com/84834776/225531413-ced8e175-4852-40b8-a610-6c121d43fe3d.png)
+  - 정방향 조회 영역 생성
 
-  ![image](https://user-images.githubusercontent.com/84834776/225531480-7d10f8d5-cc94-46e9-b0f7-020af9baf8a0.png)
+  ![image](https://user-images.githubusercontent.com/84834776/225792969-7eef60b7-7f1f-445d-b7d8-876fb191be10.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/225792992-89add19c-1ce2-44a1-92ef-02fa49794eb8.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/225793080-0a378df6-d8dc-4b3a-8250-cf1acb018be7.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/225793092-8ab39344-5986-4511-a255-5647c88fcf44.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/225793110-4d551d68-500a-4f52-bf12-363e3527eb26.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/225793149-326af9e9-81a5-4b05-a76f-95549ae70983.png)
+  
+  ![image](https://user-images.githubusercontent.com/84834776/225793432-42a9c77d-ac67-4cb1-abf3-38cb2c843f3d.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/225793699-c1a6d047-9bc9-4c1c-8bf7-bc517ed6d52f.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/225793735-e54fb6ec-27c9-42b1-9f43-203a6b624329.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/225793781-e411e679-94ab-4fa0-a8a8-b3f37d6c4364.png)
+
+  - 조건부 전달자 생성
+  
+  ![image](https://user-images.githubusercontent.com/84834776/225793250-5655a4c7-dfdf-4490-9b9f-cf2d01557353.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/225793337-aa6927ef-1aa9-4ba8-8315-017dacacd15b.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/225793959-5765f79c-eba7-4786-b048-73cd84edaf63.png)
+
+  - 루트 힌트 설정
+
+  ![image](https://user-images.githubusercontent.com/84834776/225794144-062e874d-6dc7-43d1-9dd8-e148a768823a.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/225794943-eef6bcda-5ed6-41da-bf28-dda2bc6264be.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/225794984-9ee902b3-e621-4fbd-9781-65747c6c4dcb.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/225795108-43fbdabe-cf2b-45de-a06c-a9b594b5c598.png)
   
   - 위임
-  
-  ![image](https://user-images.githubusercontent.com/84834776/225532381-a59e16a4-f1dd-4096-9498-1ef438ba2c72.png)
-  
-  - wa
-  
-  ![image](https://user-images.githubusercontent.com/84834776/225531931-a077093c-e0ec-404f-9919-b69b0bcf87bc.png)
 
-  ![image](https://user-images.githubusercontent.com/84834776/225532027-c5fd7346-075b-4613-8d01-f274dbd59eb2.png)
+  ![image](https://user-images.githubusercontent.com/84834776/225795241-cc7904a8-ae72-450b-a2f9-798b5fc3767f.png)
 
-  ![image](https://user-images.githubusercontent.com/84834776/225532094-7dcfb2f4-9914-4799-89c1-05f0c5b1ee1c.png)
+  ![image](https://user-images.githubusercontent.com/84834776/225795293-f9bcb218-388b-457a-a670-5683e1a7d4b8.png)
 
-  ![image](https://user-images.githubusercontent.com/84834776/225532170-7235551d-33fc-41fb-8bdc-8e57caa5fd25.png)
+  ![image](https://user-images.githubusercontent.com/84834776/225795368-9d32912e-ccc1-4331-bd84-62f1876daea8.png)
 
-  - wb
+  ![image](https://user-images.githubusercontent.com/84834776/225795399-97d616c2-a049-469f-844c-1b24c838078b.png)
+  
+  - Secondary Zone, Stub Zone으로 영역 전송 설정
 
-  ![image](https://user-images.githubusercontent.com/84834776/225532467-e6572017-8101-4463-9a85-9933f27bf69f.png)
+  ![image](https://user-images.githubusercontent.com/84834776/225796014-e926f5fe-18e1-46b8-b261-4616c1bfcd57.png)
 
-  ![image](https://user-images.githubusercontent.com/84834776/225532598-0a2647c2-dd58-42b3-b407-c23845f3beb9.png)
+  ![image](https://user-images.githubusercontent.com/84834776/225796048-5952f202-11b6-4272-a2cf-616ecb57300b.png)
 
- - 루트 힌트
-  
-  ![image](https://user-images.githubusercontent.com/84834776/225534999-e6ba3bb1-4aa1-44ea-9a0a-1fff14b94d39.png)
+  ![image](https://user-images.githubusercontent.com/84834776/225796116-b92395b3-8d8a-4ea0-802b-f357fadc9f30.png)
 
+  - Secondary Zone, Stub Zone
+
+  ![image](https://user-images.githubusercontent.com/84834776/225795563-4b7dcf5e-2779-4da1-b28f-b206d6ad5bef.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/225795599-da023e92-b32c-45bb-b135-9e2d5367cc60.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/225795637-393e9762-9589-4c2a-8208-41d506825854.png)
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  ![image](https://user-images.githubusercontent.com/84834776/225795810-b5242815-826d-482d-92a0-3feecf53c0de.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/225795673-ff298dd5-4ee5-4c17-ad44-77468c46d8cd.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/225795698-7c63ea2c-91e4-4f52-a6d3-386b3046055e.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/225795713-d7d5b8a3-21ea-48ae-85ca-4bb3a2a15db9.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/225795734-8805a5af-af2d-473a-86e7-7500b6ebdcfe.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/225795839-4ed9f3c5-958d-4a42-95c4-1a7a93d28e4b.png)
+
+
+
+
+
+
+
+
+
+
+
