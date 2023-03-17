@@ -174,6 +174,11 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
 
   ![image](https://user-images.githubusercontent.com/84834776/225795839-4ed9f3c5-958d-4a42-95c4-1a7a93d28e4b.png)
 
+### Linux DNS 서버
+
+  ![image](https://user-images.githubusercontent.com/84834776/225821998-5d07a044-2e50-438e-b95e-c0fc979ecc54.png)
+
+  [Upload.txt](https://github.com/hwanggiju/hwanggiju.github.io/files/10998192/Upload.txt)
 
 
 
