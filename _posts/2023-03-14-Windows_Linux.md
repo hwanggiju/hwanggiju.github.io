@@ -367,7 +367,7 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
 ### Linux DNS 서버
 
   ![image](https://user-images.githubusercontent.com/84834776/225821998-5d07a044-2e50-438e-b95e-c0fc979ecc54.png)
-
+ 부산 밀면 맛집다오
   [Upload.txt](https://github.com/hwanggiju/hwanggiju.github.io/files/10998192/Upload.txt)
 
 ### 복습
@@ -381,8 +381,15 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
   ![image](https://user-images.githubusercontent.com/84834776/226258144-25e34b91-09bb-4a87-8abc-03082f41315f.png)
 
   [Upload.txt](https://github.com/hwanggiju/hwanggiju.github.io/files/11014534/Upload.txt)
-
-
+  
+  
+  
+  
+  
+  
+  
+  
+ 
 
 
 
