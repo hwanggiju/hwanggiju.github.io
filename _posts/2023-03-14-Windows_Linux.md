@@ -388,10 +388,24 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
 
   [Upload.txt](https://github.com/hwanggiju/hwanggiju.github.io/files/11024093/Upload.txt)
 
+### Linux 사용자 관리
   
+  - useradd 옵션
+
+  ![image](https://user-images.githubusercontent.com/84834776/226531586-125786a1-7472-4072-87fa-ed46ed710d78.png)
   
+  ![image](https://user-images.githubusercontent.com/84834776/226527593-f6039d99-a0f6-4932-9e1d-e97fd3ac174e.png)
+
+  - usermod 옵션
   
-  
+  ![image](https://user-images.githubusercontent.com/84834776/226532033-74d765ae-559d-43d8-9956-7a016ef87656.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/226532066-679eb9e3-bed1-451a-955e-4e32761f7324.png)
+
+  - 스크립트를 이용한 사용자 계정 생성하기
+
+  ![image](https://user-images.githubusercontent.com/84834776/226533949-32976691-2fed-44da-b8a6-9d5439875609.png)
+
   
  
 
