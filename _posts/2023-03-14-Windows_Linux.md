@@ -382,8 +382,12 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
 
   [Upload.txt](https://github.com/hwanggiju/hwanggiju.github.io/files/11014534/Upload.txt)
   
-  
-  
+### Linux DNS 서버 복제
+
+  ![image](https://user-images.githubusercontent.com/84834776/226495843-8aed3d67-a9a9-4045-b1f4-078fd954017f.png)
+
+  [Upload.txt](https://github.com/hwanggiju/hwanggiju.github.io/files/11024093/Upload.txt)
+
   
   
   
