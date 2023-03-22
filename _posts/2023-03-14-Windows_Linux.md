@@ -406,9 +406,42 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
 
   ![image](https://user-images.githubusercontent.com/84834776/226533949-32976691-2fed-44da-b8a6-9d5439875609.png)
 
-  
- 
+### Linux 그룹 관리
 
+  ![image](https://user-images.githubusercontent.com/84834776/226772611-468c5ece-409f-4ac3-a36d-eb1a9a6a988a.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/226772643-d8b6ae0a-2a41-4a69-817f-0c1f1df566f5.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/226776359-539a1b16-7571-496f-8f1a-cf21f36196dc.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/226779462-6542170f-d2ea-4432-96f5-0d49aacbafc5.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/226779491-9ad928eb-370f-418e-a12f-5ade9d95cac2.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/226779509-fd554b2d-8739-4251-91e5-4e1874ef852e.png)
+
+### Linux.퍼미션 관리
+
+  ![image](https://user-images.githubusercontent.com/84834776/226784863-f307d0a1-0e14-48a7-8e48-50943d1d6ccf.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/226784896-06315369-caf4-4295-9f95-a7c957682301.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/226808108-78114833-d57c-4077-98a0-5dd18f75b8e6.png)
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 
 
 
