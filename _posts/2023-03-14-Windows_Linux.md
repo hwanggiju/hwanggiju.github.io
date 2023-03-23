@@ -238,11 +238,26 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
 
   ![image](https://user-images.githubusercontent.com/84834776/226808108-78114833-d57c-4077-98a0-5dd18f75b8e6.png)
 
+### Linux 같은 네트워크 간의 NFS
+
+  ![image](https://user-images.githubusercontent.com/84834776/227084364-3775c5e4-1471-4821-ae79-0a03a8d9288d.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/227085986-46cf54b3-621b-4871-82ff-6a41b8f55071.png)
+
+### Linux 다른 네트워크 간의 NFS
+  
+  ![image](https://user-images.githubusercontent.com/84834776/227103330-504f8dd1-add0-4987-9aa6-2f86b56b0431.png)
+  
+  ![image](https://user-images.githubusercontent.com/84834776/227109240-e21d6926-6102-4225-a9d6-fb59ccdfc916.png)
+
+### Linux NFS와 Windows NFS 연동
+
+  ![image](https://user-images.githubusercontent.com/84834776/227113527-9b30d1b3-9b37-4f2d-a505-008058223c0c.png)
+
+  ![Linux NFS 와 Windows NFS 연동 연습](https://user-images.githubusercontent.com/84834776/227113435-933fc0c3-f162-40ee-a4c2-24fc40071ef6.png)
   
   
-  
-  
-  
+
   
   
   
