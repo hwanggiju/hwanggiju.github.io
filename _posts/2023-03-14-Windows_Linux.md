@@ -256,14 +256,34 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
 
   ![Linux NFS 와 Windows NFS 연동 연습](https://user-images.githubusercontent.com/84834776/227113435-933fc0c3-f162-40ee-a4c2-24fc40071ef6.png)
   
-  
+### SAMBA (Linux 클라이언트 - Windows 서버)
 
+  ![image](https://user-images.githubusercontent.com/84834776/227399992-e25a27c7-c284-4094-bc65-6f67d5d9fa5d.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/227401615-004e6917-c86d-465a-838a-8efe6547f16c.png)
   
+  - 윈도우 samba 서버 공유하기
   
+  ![image](https://user-images.githubusercontent.com/84834776/227400254-fba19a16-8c88-438b-92e7-7cfacc8ed9e3.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/227400319-190c65fe-3925-4595-8725-e88672340289.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/227400336-00f1ac3a-7195-4257-b40a-b17b59b4d923.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/227400366-10a56160-f41b-4fb1-a6a7-10e30ca5f342.png)
   
+### SAMBA (Linux 서버 - Windows 클라이언트)
   
-  
-  
+  ![image](https://user-images.githubusercontent.com/84834776/227421885-53fb6f6f-d766-410a-bb47-53d3724e1d8a.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/227421905-70abcf97-b0a1-4140-9317-ade669696893.png)
+
+### samba 구성파일
+
+  ![image](https://user-images.githubusercontent.com/84834776/227430858-848ccc38-c94d-4f19-ad0e-2bf5233f5c41.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/227430874-6ed1b4bc-e518-4f44-aaa0-53b03f59427e.png)
+
   
   
   
