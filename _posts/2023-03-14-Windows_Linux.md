@@ -284,10 +284,117 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
 
   ![image](https://user-images.githubusercontent.com/84834776/227430874-6ed1b4bc-e518-4f44-aaa0-53b03f59427e.png)
 
-  
-  
-  
+### 윈도우 Share folder
 
+  ![image](https://user-images.githubusercontent.com/84834776/228108746-72d8ca7b-874f-42bf-93a6-1c537e78a616.png)
+
+### 윈도우 Domain controller 계정 만들기
+
+  - 첫번째 도메인 만드는 방법
+
+  ![image](https://user-images.githubusercontent.com/84834776/228110211-18ab17bd-b924-4007-8f4e-eb9880db8997.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228110274-8247001f-b2a5-4282-93cd-a281f61f7294.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228110373-9b06bdd4-a18c-4f17-97c6-6a969a6a79eb.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228110488-e9f1df91-c7f7-451b-9509-0173f6fee56b.png)
+  
+  ![image](https://user-images.githubusercontent.com/84834776/228110633-9e01b4bc-9e1d-43b9-86e9-45e31290197f.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228110662-7d41380d-af0f-410c-be80-8b323fad08fe.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228110936-49c43c46-e9b5-4ff3-93b5-354def2e549c.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228111018-40bbb665-b60c-46a5-ac33-91b235c894c0.png)
+
+  - Active Directory 설정 확인
+
+  ![image](https://user-images.githubusercontent.com/84834776/228112031-54a729e9-332c-4b46-af7b-68920dda86bb.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228112075-d784541f-d7c4-4de2-add1-d6cc396a0a61.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228112173-2e7da7c3-85d2-4ad6-8517-887abe60b2db.png)
+
+### DFS (분산 파일 시스템)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228138204-90c1a6c2-9ac1-44e7-8e98-e388e2a89650.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228136200-709bacca-b055-4464-98b8-818de95f21f4.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228136230-2264e706-a81c-4c60-b626-85628ab99182.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228136257-4f058d99-7a19-4df3-aba3-e4a5cb4c6d4b.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228136333-17de916c-7ace-4422-89d8-6a554f0b2bf8.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228136401-3ba2f9cf-b8df-4035-a2a9-f2f8f9fbbde9.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228136461-0debcf26-9462-45d9-a927-dab4108e945b.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228136558-d0ff3d4e-5f16-40c7-bd12-3e9d4811894f.png)
+  
+  ![image](https://user-images.githubusercontent.com/84834776/228136684-fec42615-324d-4150-a99b-256226ea194a.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228136804-75ee146a-040c-4a46-a610-2d4330d6b7f6.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228136897-18c91550-0a21-43ed-839f-ce873e2f8fab.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228137018-38dec8b6-686e-468d-854d-6b01fe2732a8.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228137301-ce74bb6a-3f27-4915-b11f-dae071362a22.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228137350-07ad8420-38ba-43cd-a91f-d8503c7008cb.png)
+
+  - 공유 서버 파일 복제
+
+  ![image](https://user-images.githubusercontent.com/84834776/228147365-d27dae1b-0e30-4b9c-8f0f-3b12a253638e.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228145830-b1abfe65-8cdd-49ed-8df9-a2dd381291b9.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228147663-fe3dc2ba-e84d-4e7b-9788-966d5a057a89.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228147737-7927b728-64d0-436f-ae02-30d20464cca0.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228147910-4ec778d0-411a-491c-82a1-54498f0d4c26.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228147967-e7551dbc-46e4-41f3-8d8d-f1b501d61c6d.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228148018-8082e2a1-c1ac-4ae8-925c-7d86e987ba86.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228148056-3f0585a1-bba2-4eea-abbe-383fa5eed8b0.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228148095-c2fb178b-399b-4747-8b4c-2c635115d4b4.png)
+
+  - 공유 폴더 출판
+
+  ![image](https://user-images.githubusercontent.com/84834776/228158269-0feb91f3-f7dd-41ae-8384-80cfb4805e35.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228158797-e93287ea-0c50-49c5-81b7-449afd939195.png)
+
+  - 공유 폴더 출판 확인
+
+  ![image](https://user-images.githubusercontent.com/84834776/228159000-8494c174-a0ef-4860-9a70-930d1b975361.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228159041-af8f63f4-6c4f-4252-a0ee-cd0ffa7ece79.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228159389-78700dfc-1cb8-4a9e-a24e-cdff5073c298.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228161494-429fa04b-bc4f-4cb0-a8c5-ae5c7ff43d48.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228161651-8c23431f-e312-40e7-a463-069b05af4fdc.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228161692-c43cbbec-e49a-4261-ae42-44f68e706e82.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228161751-d2c8e7d6-2817-4d8c-8920-31e76bb3bfa3.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228161803-9b0f7f17-f713-4906-973d-5bb98d805e5a.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228161854-c2e507e3-b7bb-4f97-adef-e98171cb04bd.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228161901-b69c5287-8f9d-435d-b793-bf93440d1ed4.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228161955-9a61ca46-efd5-482d-a876-521cec0d706c.png)
 
 
 
