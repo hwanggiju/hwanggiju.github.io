@@ -396,5 +396,51 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
 
   ![image](https://user-images.githubusercontent.com/84834776/228161955-9a61ca46-efd5-482d-a876-521cec0d706c.png)
 
+### Group Policy
+
+  ![image](https://user-images.githubusercontent.com/84834776/228408019-9f8eee3c-72db-47bb-9ec5-6ddd22163746.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228408103-de029cd5-4026-4561-9168-f92cade7291f.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228408840-ac09477d-132a-4eb4-863e-7036ba75edcb.png)
+
+  - 그룹 정책 관리
+
+  ![image](https://user-images.githubusercontent.com/84834776/228410846-810667c3-0491-4484-b161-b8b8701e1275.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228410919-47e494f3-faac-4e98-8f40-49aabcd894d1.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228411021-b3094151-6b88-46f8-85fc-8e065fed58f8.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228411080-4906a897-d0cc-457f-b576-679fad56fd6c.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228411153-f116196f-2c2f-4050-aa40-c7f359e0c1be.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228411178-23ff87f6-0167-4ea8-82e3-fff38156f94b.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228411749-f8cd7ff9-7013-482d-bfc3-ee356b717a0d.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228411868-25572bec-3f97-42c2-b38d-8a8de69ad4ab.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228412626-00483513-1dc1-4705-bc34-ff177d4a4c8d.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228412639-d2f61ca1-e234-4136-b08a-032c5d9aa3f2.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228412659-f0754b94-b955-4989-a8df-14bf89abc308.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
