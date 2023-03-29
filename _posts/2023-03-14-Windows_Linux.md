@@ -438,14 +438,35 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
 
   ![image](https://user-images.githubusercontent.com/84834776/228426234-7c11c9f5-f79d-43fa-b380-2d58f5989c16.png)
 
+  - site
 
+  ![image](https://user-images.githubusercontent.com/84834776/228442588-c810d047-c027-4f2c-8310-17f1eff06b2d.png)
 
+  ![image](https://user-images.githubusercontent.com/84834776/228442693-475a9ec7-2ea3-4be4-8a41-ab2417c4248c.png)
 
+  ![image](https://user-images.githubusercontent.com/84834776/228443097-acabb37b-ae81-42ce-a2ed-f4d98350421f.png)
 
+  ![image](https://user-images.githubusercontent.com/84834776/228443127-17f790de-036f-4c9e-bc71-2d326224d546.png)
+  
+  ![image](https://user-images.githubusercontent.com/84834776/228444049-0f834a8e-73c0-4320-bcb8-b2a0a6086856.png)
+  
+  ![image](https://user-images.githubusercontent.com/84834776/228444008-6fb9e1ee-15a5-44aa-bc84-107272ff375b.png)
 
+  - 추가 DC 설정
 
+  ![image](https://user-images.githubusercontent.com/84834776/228444186-8f99c72a-653c-4d79-8a68-cf8ddbfb916d.png)
+  
+  ![image](https://user-images.githubusercontent.com/84834776/228444498-4de7c136-7a35-41ac-8f42-a90c0567fcb7.png)
 
+  ![image](https://user-images.githubusercontent.com/84834776/228444457-0f8453fe-4b8a-4c4d-a7a7-92aae5fc9bc3.png)
 
+  ![image](https://user-images.githubusercontent.com/84834776/228444534-7c7264a1-6601-4670-97e7-3e4b15036a92.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228444915-8c81ea6d-7347-402f-94b0-d5a60a21362b.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228445181-796cfd3d-03f6-4d09-a901-126cc505d882.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228445303-33903568-675d-4981-af88-c293ed456618.png)
 
 
 
