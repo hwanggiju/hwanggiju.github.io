@@ -404,7 +404,9 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
 
   ![image](https://user-images.githubusercontent.com/84834776/228408840-ac09477d-132a-4eb4-863e-7036ba75edcb.png)
 
-  - 그룹 정책 관리
+  - 그룹 정책 관리 설정
+
+  ![image](https://user-images.githubusercontent.com/84834776/228424682-662eff0b-5b50-4506-aa42-eded1da3ceed.png)
 
   ![image](https://user-images.githubusercontent.com/84834776/228410846-810667c3-0491-4484-b161-b8b8701e1275.png)
 
@@ -428,8 +430,13 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
 
   ![image](https://user-images.githubusercontent.com/84834776/228412659-f0754b94-b955-4989-a8df-14bf89abc308.png)
 
+  - ou
 
+  ![image](https://user-images.githubusercontent.com/84834776/228425973-84d92112-bbfb-4a4c-83be-1f2127f41ecf.png)
 
+  ![image](https://user-images.githubusercontent.com/84834776/228426152-5b5b8174-9dd5-48cf-8771-d113f04abe81.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228426234-7c11c9f5-f79d-43fa-b380-2d58f5989c16.png)
 
 
 
