@@ -468,6 +468,49 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
 
   ![image](https://user-images.githubusercontent.com/84834776/228445303-33903568-675d-4981-af88-c293ed456618.png)
 
+  - BLOCK 상속 차단
 
+  ![image](https://user-images.githubusercontent.com/84834776/228737304-a7b06b54-4434-40cc-b840-7c04be7e8b35.png)
 
+  - no override - Block 안먹힘
+
+  ![image](https://user-images.githubusercontent.com/84834776/228738084-173fc085-46db-4f33-96ae-9083b6443d11.png)
+
+  - Filter 
+
+  ![image](https://user-images.githubusercontent.com/84834776/228739806-71cb723b-8d60-4dd9-b9cb-de405dd2e7d5.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228739908-1c9da2dc-10d8-422b-8e54-9f0094889a7a.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228739972-31aa0cb8-dc6d-4c17-b2b2-2a9961e5e90c.png)
+
+  - 로컬 보안 정책
+  
+  ![image](https://user-images.githubusercontent.com/84834776/228744976-c48fb2c6-6db1-45da-8cc3-277698f54c70.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228745511-dcf895a5-f3f4-4833-952b-6394af0f8cf3.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228745550-0492bf28-045f-4c23-9d67-d258c7d69a49.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228745567-12caad40-e261-4bc1-b922-4b9328e073ab.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228746562-4eb43b76-e9ba-4225-9acb-2d0b448d1801.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228746588-eaa8e41c-b8ad-49e4-ad25-356a168ae40a.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228746624-4e5cfba1-6a6c-44dc-a61f-d54570ab8af3.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228746656-e9343077-f9f3-40f2-a87a-2feeb9f52e11.png)
+
+  - 서비스
+
+  ![image](https://user-images.githubusercontent.com/84834776/228749419-35dbc4a2-c5b4-41aa-9201-18d86b3369c3.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228749529-16346cc9-c347-4d74-ab18-1dd013b5fbe6.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228749569-c0407d77-fa78-401e-84fe-1f08c8aa3eb9.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228753688-89310609-27f7-43a9-8c95-2aed559c673d.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/228753753-c7d457de-2364-4836-a79c-353e2d7f6d0f.png)
 
