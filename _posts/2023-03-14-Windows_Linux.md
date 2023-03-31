@@ -514,3 +514,46 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
 
   ![image](https://user-images.githubusercontent.com/84834776/228753753-c7d457de-2364-4836-a79c-353e2d7f6d0f.png)
 
+### A G DL P / A G U DL P 전략
+
+  ![image](https://user-images.githubusercontent.com/84834776/229039534-3cd1428e-7135-4696-a68a-a6a32ae8a0e0.png)
+
+  - A G DL P
+  
+  ![image](https://user-images.githubusercontent.com/84834776/229010128-6d476844-f292-477c-bdcb-02178cf825ab.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/229010225-0aa2c3d4-d253-416a-abcd-2b329b313ed1.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/229010252-6e846d03-c8f4-4fcc-b29d-537a4e94d847.png)
+
+### Trust
+
+  ![image](https://user-images.githubusercontent.com/84834776/229048565-3f684fd0-69fc-4328-9bc5-f6c70d6a45e3.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/229048798-bbd8ea20-74bc-421a-8145-307504cb4868.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/229048830-26b4f29b-bf61-4e53-878a-2e2749d57f09.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/229048889-1f9ff9fb-6d23-4219-9958-42f19f145dca.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/229049018-5f082fc1-b725-4374-975c-87a8e05ccb1a.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/229049123-fff1f36c-e69b-4e75-b93e-2a1dca135a2a.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/229049159-7d6932b7-af9e-4784-9ac1-929b6f605f26.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/229049427-ec0478f3-e5eb-480a-8062-8aa95474178c.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/229049735-9cd569fb-04f6-4da4-874a-8822b2a7e4e4.png)
+
+
+
+
+
+
+
+
+
+
+
+
