@@ -548,11 +548,19 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
 
   ![image](https://user-images.githubusercontent.com/84834776/229049735-9cd569fb-04f6-4da4-874a-8822b2a7e4e4.png)
 
+### 원격 접속
 
+  - vnc 
 
+  ![image](https://user-images.githubusercontent.com/84834776/229438654-081b8599-3f9d-432d-be2d-79f8151a033c.png)
 
+  - FreeNX
 
+  ![image](https://user-images.githubusercontent.com/84834776/229438694-20ba54fe-5996-4a34-a544-957307799166.png)
 
+  ![image](https://user-images.githubusercontent.com/84834776/229438739-4e3f2c1e-e815-4ce1-9585-a6023876005c.png)
+
+  
 
 
 
