@@ -548,7 +548,7 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
 
   ![image](https://user-images.githubusercontent.com/84834776/229049735-9cd569fb-04f6-4da4-874a-8822b2a7e4e4.png)
 
-### 원격 접속
+### 원격 관리 서버
 
   - vnc 
 
@@ -560,7 +560,50 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
 
   ![image](https://user-images.githubusercontent.com/84834776/229438739-4e3f2c1e-e815-4ce1-9585-a6023876005c.png)
 
+  - 텔넷 서버
+
+  ![image](https://user-images.githubusercontent.com/84834776/229661473-35c47475-455c-4c59-80e2-5bc7d69ee854.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/229661494-8352cedc-b8e5-4ff3-a9f9-ac760527edf2.png)
+
+  - SSH 서버
+
+  ![image](https://user-images.githubusercontent.com/84834776/229668577-16ca2688-7744-449b-a7d5-9ee9be65debd.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/229668605-17daec82-3c1c-48f5-8da0-b788aa867a60.png)
+
+### APM (Apache, PHP, My SQL)
+
+  - Apache
+
+  ![image](https://user-images.githubusercontent.com/84834776/229687948-729cd9ec-e866-4739-8f1a-b8febc566a9b.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/229687974-788ed6e3-b4c1-4686-be3a-747ce5067fab.png)
+
+  - Apache 가상 호스트 설정
   
+  ![image](https://user-images.githubusercontent.com/84834776/229691325-1eaa84c3-2682-4da5-825e-0aba54196f41.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/229691386-1b22dc73-9087-4fdc-9d37-e09ece682308.png)
+
+  - My SQL
+
+  ![image](https://user-images.githubusercontent.com/84834776/229713576-d0c3f873-174b-42e4-9d9d-7f26ef6114ed.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/229706694-cd0b8c97-5009-4e63-8255-0d8854b7c7e5.png)
+
+  
+
+
+
+
+
+
+
+
+
+
+
 
 
 
