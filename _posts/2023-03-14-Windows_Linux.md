@@ -592,11 +592,43 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
 
   ![image](https://user-images.githubusercontent.com/84834776/229706694-cd0b8c97-5009-4e63-8255-0d8854b7c7e5.png)
 
+### vsFTP 서버
+
+  . 유저 비고립화 시키기(기본값)
   
+  ![image](https://user-images.githubusercontent.com/84834776/230243002-7cbfe8e9-c885-4784-818d-bdefedf98a65.png)
 
+  ![image](https://user-images.githubusercontent.com/84834776/230242479-77dd9141-4909-46f7-a43c-f36d69193022.png)
 
+  - 유저 고립화
+  
+  ![image](https://user-images.githubusercontent.com/84834776/230242985-f3ca11bf-1577-46f5-8d8b-df4e798ecf0c.png)
 
+  ![image](https://user-images.githubusercontent.com/84834776/230243704-5a5b89c8-8e32-4bc8-bbcf-e1ac6b6decb2.png)
 
+  - 유저 FTP 접근 제한
+
+  ![image](https://user-images.githubusercontent.com/84834776/230243072-93af6859-f6b9-476e-9f6f-e988b152a985.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/230243768-563ba3e6-9c63-4d48-a293-d7f3e44761e3.png)
+
+  - anonymous 구성하기
+
+  ![image](https://user-images.githubusercontent.com/84834776/230243329-694dbd59-dbc9-442f-a7c2-fad0582fb4b5.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/230243859-bf65a2c6-1429-4b1a-b804-925b8352e299.png)
+
+  - 연습 문제
+
+  ![image](https://user-images.githubusercontent.com/84834776/230258678-104b3ec2-fd7c-4a12-8d8f-f16bbc9bb098.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/230258701-9fedf249-7c0a-47df-92f5-f09c21040b12.png)
+
+### Linux.Firewall/NAT
+
+  ![image](https://user-images.githubusercontent.com/84834776/230293809-283d0488-33be-412e-9e6f-3300411a18e9.png)
+
+  ![image](https://user-images.githubusercontent.com/84834776/230293846-d480b182-06fa-4a37-8e94-43d6a5462de9.png)
 
 
 
