@@ -630,6 +630,19 @@ tag: [네트워크, 국비교육과정(Private 클라우드를 활용한 네트�
 
   ![image](https://user-images.githubusercontent.com/84834776/230293846-d480b182-06fa-4a37-8e94-43d6a5462de9.png)
 
+  - 연습 문제
+
+  ![image](https://user-images.githubusercontent.com/84834776/230527600-24ca9ba1-55bd-45bc-befa-62987f1da34f.png)
+
+### NAT
+
+  - 내부 -> 외부 POSTROUTING
+  
+  ![image](https://user-images.githubusercontent.com/84834776/230543674-a6120453-277b-428e-8605-33796a834b8c.png)
+  
+  - 외부 -> 내부 PREROUTING
+
+  ![image](https://user-images.githubusercontent.com/84834776/230543919-ee5361ba-f702-496b-b213-e53ca14d48ff.png)
 
 
 
